@@ -6837,7 +6837,7 @@ if (typeof Promise !== 'undefined' && $ReactRefreshCurrentExports$ instanceof Pr
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "printLine": () => (/* binding */ printLine)
+/* harmony export */   printLine: () => (/* binding */ printLine)
 /* harmony export */ });
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
 /* provided dependency */ var __react_refresh_error_overlay__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js");
@@ -8336,22 +8336,22 @@ exports.hooks = {
 /******/ 	}();
 /******/ 	
 /************************************************************************/
-var __webpack_exports__ = {};
+var __nested_webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 !function() {
 /*!********************************************!*\
   !*** ./client-src/modules/logger/index.js ***!
   \********************************************/
-__nested_webpack_require_23009__.r(__webpack_exports__);
-/* harmony export */ __nested_webpack_require_23009__.d(__webpack_exports__, {
+__nested_webpack_require_23009__.r(__nested_webpack_exports__);
+/* harmony export */ __nested_webpack_require_23009__.d(__nested_webpack_exports__, {
 /* harmony export */   "default": function() { return /* reexport default export from named module */ webpack_lib_logging_runtime_js__WEBPACK_IMPORTED_MODULE_0__; }
 /* harmony export */ });
 /* harmony import */ var webpack_lib_logging_runtime_js__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_23009__(/*! webpack/lib/logging/runtime.js */ "./node_modules/webpack/lib/logging/runtime.js");
 
 }();
 var __webpack_export_target__ = exports;
-for(var i in __webpack_exports__) __webpack_export_target__[i] = __webpack_exports__[i];
-if(__webpack_exports__.__esModule) Object.defineProperty(__webpack_export_target__, "__esModule", { value: true });
+for(var i in __nested_webpack_exports__) __webpack_export_target__[i] = __nested_webpack_exports__[i];
+if(__nested_webpack_exports__.__esModule) Object.defineProperty(__webpack_export_target__, "__esModule", { value: true });
 /******/ })()
 ;
 
@@ -14027,15 +14027,15 @@ module.exports = Url;
 /******/ 	}();
 /******/ 	
 /************************************************************************/
-var __webpack_exports__ = {};
+var __nested_webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 !function() {
 "use strict";
 /*!***************************************************!*\
   !*** ./client-src/modules/sockjs-client/index.js ***!
   \***************************************************/
-__nested_webpack_require_170156__.r(__webpack_exports__);
-/* harmony export */ __nested_webpack_require_170156__.d(__webpack_exports__, {
+__nested_webpack_require_170156__.r(__nested_webpack_exports__);
+/* harmony export */ __nested_webpack_require_170156__.d(__nested_webpack_exports__, {
 /* harmony export */   "default": function() { return /* reexport default from dynamic */ sockjs_client__WEBPACK_IMPORTED_MODULE_0___default.a; }
 /* harmony export */ });
 /* harmony import */ var sockjs_client__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_170156__(/*! sockjs-client */ "./node_modules/sockjs-client/lib/entry.js");
@@ -14043,7 +14043,7 @@ __nested_webpack_require_170156__.r(__webpack_exports__);
 // eslint-disable-next-line import/no-extraneous-dependencies
 
 }();
-/******/ 	return __webpack_exports__;
+/******/ 	return __nested_webpack_exports__;
 /******/ })()
 ;
 });
@@ -14059,9 +14059,9 @@ __nested_webpack_require_170156__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "formatProblem": () => (/* binding */ formatProblem),
-/* harmony export */   "hide": () => (/* binding */ hide),
-/* harmony export */   "show": () => (/* binding */ show)
+/* harmony export */   formatProblem: () => (/* binding */ formatProblem),
+/* harmony export */   hide: () => (/* binding */ hide),
+/* harmony export */   show: () => (/* binding */ show)
 /* harmony export */ });
 /* harmony import */ var ansi_html_community__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ansi-html-community */ "./node_modules/ansi-html-community/index.js");
 /* harmony import */ var ansi_html_community__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(ansi_html_community__WEBPACK_IMPORTED_MODULE_0__);
@@ -14293,7 +14293,7 @@ function show(type, messages, trustedTypesPolicyName) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "client": () => (/* binding */ client),
+/* harmony export */   client: () => (/* binding */ client),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _clients_WebSocketClient_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./clients/WebSocketClient.js */ "./node_modules/webpack-dev-server/client/clients/WebSocketClient.js");
@@ -14567,9 +14567,9 @@ function getCurrentScriptSource() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "log": () => (/* binding */ log),
-/* harmony export */   "logEnabledFeatures": () => (/* binding */ logEnabledFeatures),
-/* harmony export */   "setLogLevel": () => (/* binding */ setLogLevel)
+/* harmony export */   log: () => (/* binding */ log),
+/* harmony export */   logEnabledFeatures: () => (/* binding */ logEnabledFeatures),
+/* harmony export */   setLogLevel: () => (/* binding */ setLogLevel)
 /* harmony export */ });
 /* harmony import */ var _modules_logger_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/logger/index.js */ "./node_modules/webpack-dev-server/client/modules/logger/index.js");
 /* harmony import */ var _modules_logger_index_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_logger_index_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -14838,9 +14838,10 @@ function stripAnsi(string) {
 */
 /* globals __webpack_hash__ */
 if (true) {
+	/** @type {undefined|string} */
 	var lastHash;
 	var upToDate = function upToDate() {
-		return lastHash.indexOf(__webpack_require__.h()) >= 0;
+		return /** @type {string} */ (lastHash).indexOf(__webpack_require__.h()) >= 0;
 	};
 	var log = __webpack_require__(/*! ./log */ "./node_modules/webpack/hot/log.js");
 	var check = function check() {
@@ -14930,6 +14931,11 @@ module.exports = new EventEmitter();
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
 */
+
+/**
+ * @param {(string | number)[]} updatedModules updated modules
+ * @param {(string | number)[] | null} renewedModules renewed modules
+ */
 module.exports = function (updatedModules, renewedModules) {
 	var unacceptedModules = updatedModules.filter(function (moduleId) {
 		return renewedModules && renewedModules.indexOf(moduleId) < 0;
@@ -14980,10 +14986,17 @@ module.exports = function (updatedModules, renewedModules) {
   \*****************************************/
 /***/ ((module) => {
 
+/** @typedef {"info" | "warning" | "error"} LogLevel */
+
+/** @type {LogLevel} */
 var logLevel = "info";
 
 function dummy() {}
 
+/**
+ * @param {LogLevel} level log level
+ * @returns {boolean} true, if should log
+ */
 function shouldLog(level) {
 	var shouldLog =
 		(logLevel === "info" && level === "info") ||
@@ -14992,6 +15005,10 @@ function shouldLog(level) {
 	return shouldLog;
 }
 
+/**
+ * @param {(msg?: string) => void} logFn log function
+ * @returns {(level: LogLevel, msg?: string) => void} function that logs when log level is sufficient
+ */
 function logGroup(logFn) {
 	return function (level, msg) {
 		if (shouldLog(level)) {
@@ -15000,6 +15017,10 @@ function logGroup(logFn) {
 	};
 }
 
+/**
+ * @param {LogLevel} level log level
+ * @param {string|Error} msg message
+ */
 module.exports = function (level, msg) {
 	if (shouldLog(level)) {
 		if (level === "info") {
@@ -15012,11 +15033,9 @@ module.exports = function (level, msg) {
 	}
 };
 
-/* eslint-disable node/no-unsupported-features/node-builtins */
 var group = console.group || dummy;
 var groupCollapsed = console.groupCollapsed || dummy;
 var groupEnd = console.groupEnd || dummy;
-/* eslint-enable node/no-unsupported-features/node-builtins */
 
 module.exports.group = logGroup(group);
 
@@ -15024,10 +15043,17 @@ module.exports.groupCollapsed = logGroup(groupCollapsed);
 
 module.exports.groupEnd = logGroup(groupEnd);
 
+/**
+ * @param {LogLevel} level log level
+ */
 module.exports.setLogLevel = function (level) {
 	logLevel = level;
 };
 
+/**
+ * @param {Error} err error
+ * @returns {string} formatted error
+ */
 module.exports.formatError = function (err) {
 	var message = err.message;
 	var stack = err.stack;
@@ -16786,7 +16812,6 @@ module.exports = getWDSMetadata;
 /******/ 		// Check if module is in cache
 /******/ 		var cachedModule = __webpack_module_cache__[moduleId];
 /******/ 		if (cachedModule !== undefined) {
-/******/ 			if (cachedModule.error !== undefined) throw cachedModule.error;
 /******/ 			return cachedModule.exports;
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
@@ -16797,15 +16822,10 @@ module.exports = getWDSMetadata;
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		try {
-/******/ 			var execOptions = { id: moduleId, module: module, factory: __webpack_modules__[moduleId], require: __webpack_require__ };
-/******/ 			__webpack_require__.i.forEach(function(handler) { handler(execOptions); });
-/******/ 			module = execOptions.module;
-/******/ 			execOptions.factory.call(module.exports, module, module.exports, execOptions.require);
-/******/ 		} catch(e) {
-/******/ 			module.error = e;
-/******/ 			throw e;
-/******/ 		}
+/******/ 		var execOptions = { id: moduleId, module: module, factory: __webpack_modules__[moduleId], require: __webpack_require__ };
+/******/ 		__webpack_require__.i.forEach(function(handler) { handler(execOptions); });
+/******/ 		module = execOptions.module;
+/******/ 		execOptions.factory.call(module.exports, module, module.exports, execOptions.require);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
@@ -16861,7 +16881,7 @@ module.exports = getWDSMetadata;
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("f630183a75e536714b14")
+/******/ 		__webpack_require__.h = () => ("e660c3becb4460d395ff")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -16906,6 +16926,7 @@ module.exports = getWDSMetadata;
 /******/ 					script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 				}
 /******/ 				script.setAttribute("data-webpack", dataWebpackPrefix + key);
+/******/ 		
 /******/ 				script.src = url;
 /******/ 			}
 /******/ 			inProgress[url] = [done];
@@ -16918,7 +16939,7 @@ module.exports = getWDSMetadata;
 /******/ 				script.parentNode && script.parentNode.removeChild(script);
 /******/ 				doneFns && doneFns.forEach((fn) => (fn(event)));
 /******/ 				if(prev) return prev(event);
-/******/ 			};
+/******/ 			}
 /******/ 			var timeout = setTimeout(onScriptComplete.bind(null, undefined, { type: 'timeout', target: script }), 120000);
 /******/ 			script.onerror = onScriptComplete.bind(null, script.onerror);
 /******/ 			script.onload = onScriptComplete.bind(null, script.onload);
@@ -16958,7 +16979,6 @@ module.exports = getWDSMetadata;
 /******/ 		var currentUpdateApplyHandlers;
 /******/ 		var queuedInvalidatedModules;
 /******/ 		
-/******/ 		// eslint-disable-next-line no-unused-vars
 /******/ 		__webpack_require__.hmrD = currentModuleData;
 /******/ 		
 /******/ 		__webpack_require__.i.push(function (options) {
@@ -17019,8 +17039,8 @@ module.exports = getWDSMetadata;
 /******/ 					Object.defineProperty(fn, name, createPropertyDescriptor(name));
 /******/ 				}
 /******/ 			}
-/******/ 			fn.e = function (chunkId) {
-/******/ 				return trackBlockingPromise(require.e(chunkId));
+/******/ 			fn.e = function (chunkId, fetchPriority) {
+/******/ 				return trackBlockingPromise(require.e(chunkId, fetchPriority));
 /******/ 			};
 /******/ 			return fn;
 /******/ 		}
@@ -17139,7 +17159,7 @@ module.exports = getWDSMetadata;
 /******/ 			for (var i = 0; i < registeredStatusHandlers.length; i++)
 /******/ 				results[i] = registeredStatusHandlers[i].call(null, newStatus);
 /******/ 		
-/******/ 			return Promise.all(results);
+/******/ 			return Promise.all(results).then(function () {});
 /******/ 		}
 /******/ 		
 /******/ 		function unblock() {
@@ -17212,8 +17232,7 @@ module.exports = getWDSMetadata;
 /******/ 									updatedModules
 /******/ 								);
 /******/ 								return promises;
-/******/ 							},
-/******/ 							[])
+/******/ 							}, [])
 /******/ 						).then(function () {
 /******/ 							return waitForBlockingPromises(function () {
 /******/ 								if (applyOnUpdate) {

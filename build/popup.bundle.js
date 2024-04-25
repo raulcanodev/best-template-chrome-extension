@@ -5159,7 +5159,34 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".App {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n  text-align: center;\n  height: 100%;\n  padding: 10px;\n  background-color: #282c34;\n}\n\n.App-logo {\n  height: 30vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n.App-header {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}", "",{"version":3,"sources":["webpack://./src/pages/Popup/Popup.css"],"names":[],"mappings":"AAAA;EACE,kBAAA;EACA,QAAA;EACA,WAAA;EACA,SAAA;EACA,UAAA;EACA,kBAAA;EACA,YAAA;EACA,aAAA;EACA,yBAAA;AACF;;AAEA;EACE,cAAA;EACA,oBAAA;AACF;;AAEA;EACE;IACE,4CAAA;EACF;AACF;AAEA;EACE,YAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,6BAAA;EACA,YAAA;AAAF;;AAGA;EACE,cAAA;AAAF;;AAGA;EACE;IACE,uBAAA;EAAF;EAEA;IACE,yBAAA;EAAF;AACF","sourcesContent":[".App {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n  text-align: center;\n  height: 100%;\n  padding: 10px;\n  background-color: #282c34;\n}\n\n.App-logo {\n  height: 30vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "", "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./src/pages/Popup/components/Navbar/Navbar.css":
+/*!***************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./src/pages/Popup/components/Navbar/Navbar.css ***!
+  \***************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "", "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5181,12 +5208,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! data:image/svg+xml;charset=utf-8,%3C?xml version=%271.0%27 encoding=%27utf-8%27?%3E %3Csvg version=%271.1%27 xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27 height=%2762.5%27 width=%27116.9%27 fill=%27%23161f27%27%3E %3Cpath d=%27M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z%27/%3E %3C/svg%3E */ "data:image/svg+xml;charset=utf-8,%3C?xml version=%271.0%27 encoding=%27utf-8%27?%3E %3Csvg version=%271.1%27 xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27 height=%2762.5%27 width=%27116.9%27 fill=%27%23161f27%27%3E %3Cpath d=%27M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z%27/%3E %3C/svg%3E"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! data:image/svg+xml;charset=utf-8,%3C?xml version=%271.0%27 encoding=%27utf-8%27?%3E %3Csvg version=%271.1%27 xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27 height=%2762.5%27 width=%27116.9%27 fill=%27%23efefef%27%3E %3Cpath d=%27M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z%27/%3E %3C/svg%3E */ "data:image/svg+xml;charset=utf-8,%3C?xml version=%271.0%27 encoding=%27utf-8%27?%3E %3Csvg version=%271.1%27 xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27 height=%2762.5%27 width=%27116.9%27 fill=%27%23efefef%27%3E %3Cpath d=%27M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z%27/%3E %3C/svg%3E"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  width: 300px;\n  height: 260px;\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  position: relative;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\", monospace;\n}", "",{"version":3,"sources":["webpack://./src/pages/Popup/index.css"],"names":[],"mappings":"AAAA;EACE,YAAA;EACA,aAAA;EACA,SAAA;EACA,8JAAA;EAGA,mCAAA;EACA,kCAAA;EAEA,kBAAA;AAFF;;AAKA;EACE,+EAAA;AAFF","sourcesContent":["body {\n  width: 300px;\n  height: 260px;\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n\n  position: relative;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@charset \"UTF-8\";\n/**\n * Automatic version:\n * Uses light theme by default but switches to dark theme\n * if a system-wide theme preference is set on the user's device.\n */\n:root {\n  --background-body: #fff;\n  --background: #efefef;\n  --background-alt: #f7f7f7;\n  --selection: #9e9e9e;\n  --text-main: #363636;\n  --text-bright: #000;\n  --text-muted: #70777f;\n  --links: #0076d1;\n  --focus: #0096bfab;\n  --border: #dbdbdb;\n  --code: #000;\n  --animation-duration: 0.1s;\n  --button-base: #d0cfcf;\n  --button-hover: #9b9b9b;\n  --scrollbar-thumb: rgb(170, 170, 170);\n  --scrollbar-thumb-hover: var(--button-hover);\n  --form-placeholder: #949494;\n  --form-text: #1d1d1d;\n  --variable: #39a33c;\n  --highlight: #ff0;\n  --select-arrow: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    --background-body: #202b38;\n    --background: #161f27;\n    --background-alt: #1a242f;\n    --selection: #1c76c5;\n    --text-main: #dbdbdb;\n    --text-bright: #fff;\n    --text-muted: #a9b1ba;\n    --links: #41adff;\n    --focus: #0096bfab;\n    --border: #526980;\n    --code: #ffbe85;\n    --animation-duration: 0.1s;\n    --button-base: #0c151c;\n    --button-hover: #040a0f;\n    --scrollbar-thumb: var(--button-hover);\n    --scrollbar-thumb-hover: rgb(0, 0, 0);\n    --form-placeholder: #a9a9a9;\n    --form-text: #fff;\n    --variable: #d941e2;\n    --highlight: #efdb43;\n    --select-arrow: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  }\n}\nhtml {\n  scrollbar-color: rgb(170, 170, 170) #fff;\n  scrollbar-color: var(--scrollbar-thumb) var(--background-body);\n  scrollbar-width: thin;\n}\n\n@media (prefers-color-scheme: dark) {\n  html {\n    scrollbar-color: #040a0f #202b38;\n    scrollbar-color: var(--scrollbar-thumb) var(--background-body);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  html {\n    scrollbar-color: #040a0f #202b38;\n    scrollbar-color: var(--scrollbar-thumb) var(--background-body);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  html {\n    scrollbar-color: #040a0f #202b38;\n    scrollbar-color: var(--scrollbar-thumb) var(--background-body);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  html {\n    scrollbar-color: #040a0f #202b38;\n    scrollbar-color: var(--scrollbar-thumb) var(--background-body);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  html {\n    scrollbar-color: #040a0f #202b38;\n    scrollbar-color: var(--scrollbar-thumb) var(--background-body);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  html {\n    scrollbar-color: #040a0f #202b38;\n    scrollbar-color: var(--scrollbar-thumb) var(--background-body);\n  }\n}\nbody {\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", \"Segoe UI Emoji\", \"Apple Color Emoji\", \"Noto Color Emoji\", sans-serif;\n  line-height: 1.4;\n  width: 300px;\n  height: 300px;\n  max-width: 800px;\n  margin: 20px auto;\n  padding: 0 10px;\n  word-wrap: break-word;\n  color: #363636;\n  color: var(--text-main);\n  background: #fff;\n  background: var(--background-body);\n  text-rendering: optimizeLegibility;\n}\n\n@media (prefers-color-scheme: dark) {\n  body {\n    background: #202b38;\n    background: var(--background-body);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  body {\n    color: #dbdbdb;\n    color: var(--text-main);\n  }\n}\nbutton {\n  transition: background-color 0.1s linear, border-color 0.1s linear, color 0.1s linear, box-shadow 0.1s linear, transform 0.1s ease;\n  transition: background-color var(--animation-duration) linear, border-color var(--animation-duration) linear, color var(--animation-duration) linear, box-shadow var(--animation-duration) linear, transform var(--animation-duration) ease;\n}\n\n@media (prefers-color-scheme: dark) {\n  button {\n    transition: background-color 0.1s linear, border-color 0.1s linear, color 0.1s linear, box-shadow 0.1s linear, transform 0.1s ease;\n    transition: background-color var(--animation-duration) linear, border-color var(--animation-duration) linear, color var(--animation-duration) linear, box-shadow var(--animation-duration) linear, transform var(--animation-duration) ease;\n  }\n}\ninput {\n  transition: background-color 0.1s linear, border-color 0.1s linear, color 0.1s linear, box-shadow 0.1s linear, transform 0.1s ease;\n  transition: background-color var(--animation-duration) linear, border-color var(--animation-duration) linear, color var(--animation-duration) linear, box-shadow var(--animation-duration) linear, transform var(--animation-duration) ease;\n}\n\n@media (prefers-color-scheme: dark) {\n  input {\n    transition: background-color 0.1s linear, border-color 0.1s linear, color 0.1s linear, box-shadow 0.1s linear, transform 0.1s ease;\n    transition: background-color var(--animation-duration) linear, border-color var(--animation-duration) linear, color var(--animation-duration) linear, box-shadow var(--animation-duration) linear, transform var(--animation-duration) ease;\n  }\n}\ntextarea {\n  transition: background-color 0.1s linear, border-color 0.1s linear, color 0.1s linear, box-shadow 0.1s linear, transform 0.1s ease;\n  transition: background-color var(--animation-duration) linear, border-color var(--animation-duration) linear, color var(--animation-duration) linear, box-shadow var(--animation-duration) linear, transform var(--animation-duration) ease;\n}\n\n@media (prefers-color-scheme: dark) {\n  textarea {\n    transition: background-color 0.1s linear, border-color 0.1s linear, color 0.1s linear, box-shadow 0.1s linear, transform 0.1s ease;\n    transition: background-color var(--animation-duration) linear, border-color var(--animation-duration) linear, color var(--animation-duration) linear, box-shadow var(--animation-duration) linear, transform var(--animation-duration) ease;\n  }\n}\nh1 {\n  font-size: 2.2em;\n  margin-top: 0;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  margin-bottom: 12px;\n  margin-top: 24px;\n}\n\nh1 {\n  color: #000;\n  color: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n  h1 {\n    color: #fff;\n    color: var(--text-bright);\n  }\n}\nh2 {\n  color: #000;\n  color: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n  h2 {\n    color: #fff;\n    color: var(--text-bright);\n  }\n}\nh3 {\n  color: #000;\n  color: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n  h3 {\n    color: #fff;\n    color: var(--text-bright);\n  }\n}\nh4 {\n  color: #000;\n  color: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n  h4 {\n    color: #fff;\n    color: var(--text-bright);\n  }\n}\nh5 {\n  color: #000;\n  color: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n  h5 {\n    color: #fff;\n    color: var(--text-bright);\n  }\n}\nh6 {\n  color: #000;\n  color: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n  h6 {\n    color: #fff;\n    color: var(--text-bright);\n  }\n}\nstrong {\n  color: #000;\n  color: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n  strong {\n    color: #fff;\n    color: var(--text-bright);\n  }\n}\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nb,\nstrong,\nth {\n  font-weight: 600;\n}\n\nq::before {\n  content: none;\n}\n\nq::after {\n  content: none;\n}\n\nblockquote {\n  border-left: 4px solid rgba(0, 150, 191, 0.6705882353);\n  border-left: 4px solid var(--focus);\n  margin: 1.5em 0;\n  padding: 0.5em 1em;\n  font-style: italic;\n}\n\n@media (prefers-color-scheme: dark) {\n  blockquote {\n    border-left: 4px solid rgba(0, 150, 191, 0.6705882353);\n    border-left: 4px solid var(--focus);\n  }\n}\nq {\n  border-left: 4px solid rgba(0, 150, 191, 0.6705882353);\n  border-left: 4px solid var(--focus);\n  margin: 1.5em 0;\n  padding: 0.5em 1em;\n  font-style: italic;\n}\n\n@media (prefers-color-scheme: dark) {\n  q {\n    border-left: 4px solid rgba(0, 150, 191, 0.6705882353);\n    border-left: 4px solid var(--focus);\n  }\n}\nblockquote > footer {\n  font-style: normal;\n  border: 0;\n}\n\nblockquote cite {\n  font-style: normal;\n}\n\naddress {\n  font-style: normal;\n}\n\na[href^=\"mailto:\"]::before {\n  content: \"📧 \";\n}\n\na[href^=\"tel:\"]::before {\n  content: \"📞 \";\n}\n\na[href^=\"sms:\"]::before {\n  content: \"💬 \";\n}\n\nmark {\n  background-color: #ff0;\n  background-color: var(--highlight);\n  border-radius: 2px;\n  padding: 0 2px 0 2px;\n  color: #000;\n}\n\n@media (prefers-color-scheme: dark) {\n  mark {\n    background-color: #efdb43;\n    background-color: var(--highlight);\n  }\n}\na > code,\na > strong {\n  color: inherit;\n}\n\nbutton,\nselect,\ninput[type=submit],\ninput[type=reset],\ninput[type=button],\ninput[type=checkbox],\ninput[type=range],\ninput[type=radio] {\n  cursor: pointer;\n}\n\ninput,\nselect {\n  display: block;\n}\n\n[type=checkbox],\n[type=radio] {\n  display: initial;\n}\n\ninput {\n  color: #1d1d1d;\n  color: var(--form-text);\n  background-color: #efefef;\n  background-color: var(--background);\n  font-family: inherit;\n  font-size: inherit;\n  margin-right: 6px;\n  margin-bottom: 6px;\n  padding: 10px;\n  border: none;\n  border-radius: 6px;\n  outline: none;\n}\n\n@media (prefers-color-scheme: dark) {\n  input {\n    background-color: #161f27;\n    background-color: var(--background);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  input {\n    color: #fff;\n    color: var(--form-text);\n  }\n}\nbutton {\n  color: #1d1d1d;\n  color: var(--form-text);\n  background-color: #efefef;\n  background-color: var(--background);\n  font-family: inherit;\n  font-size: inherit;\n  margin-right: 6px;\n  margin-bottom: 6px;\n  padding: 10px;\n  border: none;\n  border-radius: 6px;\n  outline: none;\n}\n\n@media (prefers-color-scheme: dark) {\n  button {\n    background-color: #161f27;\n    background-color: var(--background);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  button {\n    color: #fff;\n    color: var(--form-text);\n  }\n}\ntextarea {\n  color: #1d1d1d;\n  color: var(--form-text);\n  background-color: #efefef;\n  background-color: var(--background);\n  font-family: inherit;\n  font-size: inherit;\n  margin-right: 6px;\n  margin-bottom: 6px;\n  padding: 10px;\n  border: none;\n  border-radius: 6px;\n  outline: none;\n}\n\n@media (prefers-color-scheme: dark) {\n  textarea {\n    background-color: #161f27;\n    background-color: var(--background);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  textarea {\n    color: #fff;\n    color: var(--form-text);\n  }\n}\nselect {\n  color: #1d1d1d;\n  color: var(--form-text);\n  background-color: #efefef;\n  background-color: var(--background);\n  font-family: inherit;\n  font-size: inherit;\n  margin-right: 6px;\n  margin-bottom: 6px;\n  padding: 10px;\n  border: none;\n  border-radius: 6px;\n  outline: none;\n}\n\n@media (prefers-color-scheme: dark) {\n  select {\n    background-color: #161f27;\n    background-color: var(--background);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  select {\n    color: #fff;\n    color: var(--form-text);\n  }\n}\nbutton {\n  background-color: #d0cfcf;\n  background-color: var(--button-base);\n  padding-right: 30px;\n  padding-left: 30px;\n}\n\n@media (prefers-color-scheme: dark) {\n  button {\n    background-color: #0c151c;\n    background-color: var(--button-base);\n  }\n}\ninput[type=submit] {\n  background-color: #d0cfcf;\n  background-color: var(--button-base);\n  padding-right: 30px;\n  padding-left: 30px;\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=submit] {\n    background-color: #0c151c;\n    background-color: var(--button-base);\n  }\n}\ninput[type=reset] {\n  background-color: #d0cfcf;\n  background-color: var(--button-base);\n  padding-right: 30px;\n  padding-left: 30px;\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=reset] {\n    background-color: #0c151c;\n    background-color: var(--button-base);\n  }\n}\ninput[type=button] {\n  background-color: #d0cfcf;\n  background-color: var(--button-base);\n  padding-right: 30px;\n  padding-left: 30px;\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=button] {\n    background-color: #0c151c;\n    background-color: var(--button-base);\n  }\n}\nbutton:hover {\n  background: #9b9b9b;\n  background: var(--button-hover);\n}\n\n@media (prefers-color-scheme: dark) {\n  button:hover {\n    background: #040a0f;\n    background: var(--button-hover);\n  }\n}\ninput[type=submit]:hover {\n  background: #9b9b9b;\n  background: var(--button-hover);\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=submit]:hover {\n    background: #040a0f;\n    background: var(--button-hover);\n  }\n}\ninput[type=reset]:hover {\n  background: #9b9b9b;\n  background: var(--button-hover);\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=reset]:hover {\n    background: #040a0f;\n    background: var(--button-hover);\n  }\n}\ninput[type=button]:hover {\n  background: #9b9b9b;\n  background: var(--button-hover);\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=button]:hover {\n    background: #040a0f;\n    background: var(--button-hover);\n  }\n}\ninput[type=color] {\n  min-height: 2rem;\n  padding: 8px;\n  cursor: pointer;\n}\n\ninput[type=checkbox],\ninput[type=radio] {\n  height: 1em;\n  width: 1em;\n}\n\ninput[type=radio] {\n  border-radius: 100%;\n}\n\ninput {\n  vertical-align: top;\n}\n\nlabel {\n  vertical-align: middle;\n  margin-bottom: 4px;\n  display: inline-block;\n}\n\ninput:not([type=checkbox]):not([type=radio]),\ninput[type=range],\nselect,\nbutton,\ntextarea {\n  -webkit-appearance: none;\n}\n\ntextarea {\n  display: block;\n  margin-right: 0;\n  box-sizing: border-box;\n  resize: vertical;\n}\n\ntextarea:not([cols]) {\n  width: 100%;\n}\n\ntextarea:not([rows]) {\n  min-height: 40px;\n  height: 140px;\n}\n\nselect {\n  background: #efefef url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") calc(100% - 12px) 50%/12px no-repeat;\n  background: var(--background) var(--select-arrow) calc(100% - 12px) 50%/12px no-repeat;\n  padding-right: 35px;\n}\n\n@media (prefers-color-scheme: dark) {\n  select {\n    background: #161f27 url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") calc(100% - 12px) 50%/12px no-repeat;\n    background: var(--background) var(--select-arrow) calc(100% - 12px) 50%/12px no-repeat;\n  }\n}\n@media (prefers-color-scheme: dark) {\n  select {\n    background: #161f27 url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") calc(100% - 12px) 50%/12px no-repeat;\n    background: var(--background) var(--select-arrow) calc(100% - 12px) 50%/12px no-repeat;\n  }\n}\n@media (prefers-color-scheme: dark) {\n  select {\n    background: #161f27 url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") calc(100% - 12px) 50%/12px no-repeat;\n    background: var(--background) var(--select-arrow) calc(100% - 12px) 50%/12px no-repeat;\n  }\n}\n@media (prefers-color-scheme: dark) {\n  select {\n    background: #161f27 url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") calc(100% - 12px) 50%/12px no-repeat;\n    background: var(--background) var(--select-arrow) calc(100% - 12px) 50%/12px no-repeat;\n  }\n}\nselect::-ms-expand {\n  display: none;\n}\n\nselect[multiple] {\n  padding-right: 10px;\n  background-image: none;\n  overflow-y: auto;\n}\n\ninput:focus {\n  box-shadow: 0 0 0 2px rgba(0, 150, 191, 0.6705882353);\n  box-shadow: 0 0 0 2px var(--focus);\n}\n\n@media (prefers-color-scheme: dark) {\n  input:focus {\n    box-shadow: 0 0 0 2px rgba(0, 150, 191, 0.6705882353);\n    box-shadow: 0 0 0 2px var(--focus);\n  }\n}\nselect:focus {\n  box-shadow: 0 0 0 2px rgba(0, 150, 191, 0.6705882353);\n  box-shadow: 0 0 0 2px var(--focus);\n}\n\n@media (prefers-color-scheme: dark) {\n  select:focus {\n    box-shadow: 0 0 0 2px rgba(0, 150, 191, 0.6705882353);\n    box-shadow: 0 0 0 2px var(--focus);\n  }\n}\nbutton:focus {\n  box-shadow: 0 0 0 2px rgba(0, 150, 191, 0.6705882353);\n  box-shadow: 0 0 0 2px var(--focus);\n}\n\n@media (prefers-color-scheme: dark) {\n  button:focus {\n    box-shadow: 0 0 0 2px rgba(0, 150, 191, 0.6705882353);\n    box-shadow: 0 0 0 2px var(--focus);\n  }\n}\ntextarea:focus {\n  box-shadow: 0 0 0 2px rgba(0, 150, 191, 0.6705882353);\n  box-shadow: 0 0 0 2px var(--focus);\n}\n\n@media (prefers-color-scheme: dark) {\n  textarea:focus {\n    box-shadow: 0 0 0 2px rgba(0, 150, 191, 0.6705882353);\n    box-shadow: 0 0 0 2px var(--focus);\n  }\n}\ninput[type=checkbox]:active,\ninput[type=radio]:active,\ninput[type=submit]:active,\ninput[type=reset]:active,\ninput[type=button]:active,\ninput[type=range]:active,\nbutton:active {\n  transform: translateY(2px);\n}\n\ninput:disabled,\nselect:disabled,\nbutton:disabled,\ntextarea:disabled {\n  cursor: not-allowed;\n  opacity: 0.5;\n}\n\n::-moz-placeholder {\n  color: #949494;\n  color: var(--form-placeholder);\n}\n\n:-ms-input-placeholder {\n  color: #949494;\n  color: var(--form-placeholder);\n}\n\n::-ms-input-placeholder {\n  color: #949494;\n  color: var(--form-placeholder);\n}\n\n::placeholder {\n  color: #949494;\n  color: var(--form-placeholder);\n}\n\n@media (prefers-color-scheme: dark) {\n  ::-moz-placeholder {\n    color: #a9a9a9;\n    color: var(--form-placeholder);\n  }\n  :-ms-input-placeholder {\n    color: #a9a9a9;\n    color: var(--form-placeholder);\n  }\n  ::-ms-input-placeholder {\n    color: #a9a9a9;\n    color: var(--form-placeholder);\n  }\n  ::placeholder {\n    color: #a9a9a9;\n    color: var(--form-placeholder);\n  }\n}\nfieldset {\n  border: 1px rgba(0, 150, 191, 0.6705882353) solid;\n  border: 1px var(--focus) solid;\n  border-radius: 6px;\n  margin: 0;\n  margin-bottom: 12px;\n  padding: 10px;\n}\n\n@media (prefers-color-scheme: dark) {\n  fieldset {\n    border: 1px rgba(0, 150, 191, 0.6705882353) solid;\n    border: 1px var(--focus) solid;\n  }\n}\nlegend {\n  font-size: 0.9em;\n  font-weight: 600;\n}\n\ninput[type=range] {\n  margin: 10px 0;\n  padding: 10px 0;\n  background: transparent;\n}\n\ninput[type=range]:focus {\n  outline: none;\n}\n\ninput[type=range]::-webkit-slider-runnable-track {\n  width: 100%;\n  height: 9.5px;\n  -webkit-transition: 0.2s;\n  transition: 0.2s;\n  background: #efefef;\n  background: var(--background);\n  border-radius: 3px;\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=range]::-webkit-slider-runnable-track {\n    background: #161f27;\n    background: var(--background);\n  }\n}\ninput[type=range]::-webkit-slider-thumb {\n  box-shadow: 0 1px 1px #000, 0 0 1px #0d0d0d;\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  background: #dbdbdb;\n  background: var(--border);\n  -webkit-appearance: none;\n  margin-top: -7px;\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=range]::-webkit-slider-thumb {\n    background: #526980;\n    background: var(--border);\n  }\n}\ninput[type=range]:focus::-webkit-slider-runnable-track {\n  background: #efefef;\n  background: var(--background);\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=range]:focus::-webkit-slider-runnable-track {\n    background: #161f27;\n    background: var(--background);\n  }\n}\ninput[type=range]::-moz-range-track {\n  width: 100%;\n  height: 9.5px;\n  -moz-transition: 0.2s;\n  transition: 0.2s;\n  background: #efefef;\n  background: var(--background);\n  border-radius: 3px;\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=range]::-moz-range-track {\n    background: #161f27;\n    background: var(--background);\n  }\n}\ninput[type=range]::-moz-range-thumb {\n  box-shadow: 1px 1px 1px #000, 0 0 1px #0d0d0d;\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  background: #dbdbdb;\n  background: var(--border);\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=range]::-moz-range-thumb {\n    background: #526980;\n    background: var(--border);\n  }\n}\ninput[type=range]::-ms-track {\n  width: 100%;\n  height: 9.5px;\n  background: transparent;\n  border-color: transparent;\n  border-width: 16px 0;\n  color: transparent;\n}\n\ninput[type=range]::-ms-fill-lower {\n  background: #efefef;\n  background: var(--background);\n  border: 0.2px solid #010101;\n  border-radius: 3px;\n  box-shadow: 1px 1px 1px #000, 0 0 1px #0d0d0d;\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=range]::-ms-fill-lower {\n    background: #161f27;\n    background: var(--background);\n  }\n}\ninput[type=range]::-ms-fill-upper {\n  background: #efefef;\n  background: var(--background);\n  border: 0.2px solid #010101;\n  border-radius: 3px;\n  box-shadow: 1px 1px 1px #000, 0 0 1px #0d0d0d;\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=range]::-ms-fill-upper {\n    background: #161f27;\n    background: var(--background);\n  }\n}\ninput[type=range]::-ms-thumb {\n  box-shadow: 1px 1px 1px #000, 0 0 1px #0d0d0d;\n  border: 1px solid #000;\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  background: #dbdbdb;\n  background: var(--border);\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=range]::-ms-thumb {\n    background: #526980;\n    background: var(--border);\n  }\n}\ninput[type=range]:focus::-ms-fill-lower {\n  background: #efefef;\n  background: var(--background);\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=range]:focus::-ms-fill-lower {\n    background: #161f27;\n    background: var(--background);\n  }\n}\ninput[type=range]:focus::-ms-fill-upper {\n  background: #efefef;\n  background: var(--background);\n}\n\n@media (prefers-color-scheme: dark) {\n  input[type=range]:focus::-ms-fill-upper {\n    background: #161f27;\n    background: var(--background);\n  }\n}\na {\n  text-decoration: none;\n  color: #0076d1;\n  color: var(--links);\n}\n\n@media (prefers-color-scheme: dark) {\n  a {\n    color: #41adff;\n    color: var(--links);\n  }\n}\na:hover {\n  text-decoration: underline;\n}\n\ncode {\n  background: #efefef;\n  background: var(--background);\n  color: #000;\n  color: var(--code);\n  padding: 2.5px 5px;\n  border-radius: 6px;\n  font-size: 1em;\n}\n\n@media (prefers-color-scheme: dark) {\n  code {\n    color: #ffbe85;\n    color: var(--code);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  code {\n    background: #161f27;\n    background: var(--background);\n  }\n}\nsamp {\n  background: #efefef;\n  background: var(--background);\n  color: #000;\n  color: var(--code);\n  padding: 2.5px 5px;\n  border-radius: 6px;\n  font-size: 1em;\n}\n\n@media (prefers-color-scheme: dark) {\n  samp {\n    color: #ffbe85;\n    color: var(--code);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  samp {\n    background: #161f27;\n    background: var(--background);\n  }\n}\ntime {\n  background: #efefef;\n  background: var(--background);\n  color: #000;\n  color: var(--code);\n  padding: 2.5px 5px;\n  border-radius: 6px;\n  font-size: 1em;\n}\n\n@media (prefers-color-scheme: dark) {\n  time {\n    color: #ffbe85;\n    color: var(--code);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  time {\n    background: #161f27;\n    background: var(--background);\n  }\n}\npre > code {\n  padding: 10px;\n  display: block;\n  overflow-x: auto;\n}\n\nvar {\n  color: #39a33c;\n  color: var(--variable);\n  font-style: normal;\n  font-family: monospace;\n}\n\n@media (prefers-color-scheme: dark) {\n  var {\n    color: #d941e2;\n    color: var(--variable);\n  }\n}\nkbd {\n  background: #efefef;\n  background: var(--background);\n  border: 1px solid #dbdbdb;\n  border: 1px solid var(--border);\n  border-radius: 2px;\n  color: #363636;\n  color: var(--text-main);\n  padding: 2px 4px 2px 4px;\n}\n\n@media (prefers-color-scheme: dark) {\n  kbd {\n    color: #dbdbdb;\n    color: var(--text-main);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  kbd {\n    border: 1px solid #526980;\n    border: 1px solid var(--border);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  kbd {\n    background: #161f27;\n    background: var(--background);\n  }\n}\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\nhr {\n  border: none;\n  border-top: 1px solid #dbdbdb;\n  border-top: 1px solid var(--border);\n}\n\n@media (prefers-color-scheme: dark) {\n  hr {\n    border-top: 1px solid #526980;\n    border-top: 1px solid var(--border);\n  }\n}\ntable {\n  border-collapse: collapse;\n  margin-bottom: 10px;\n  width: 100%;\n  table-layout: fixed;\n}\n\ntable caption {\n  text-align: left;\n}\n\ntd,\nth {\n  padding: 6px;\n  text-align: left;\n  vertical-align: top;\n  word-wrap: break-word;\n}\n\nthead {\n  border-bottom: 1px solid #dbdbdb;\n  border-bottom: 1px solid var(--border);\n}\n\n@media (prefers-color-scheme: dark) {\n  thead {\n    border-bottom: 1px solid #526980;\n    border-bottom: 1px solid var(--border);\n  }\n}\ntfoot {\n  border-top: 1px solid #dbdbdb;\n  border-top: 1px solid var(--border);\n}\n\n@media (prefers-color-scheme: dark) {\n  tfoot {\n    border-top: 1px solid #526980;\n    border-top: 1px solid var(--border);\n  }\n}\ntbody tr:nth-child(even) {\n  background-color: #efefef;\n  background-color: var(--background);\n}\n\n@media (prefers-color-scheme: dark) {\n  tbody tr:nth-child(even) {\n    background-color: #161f27;\n    background-color: var(--background);\n  }\n}\ntbody tr:nth-child(even) button {\n  background-color: #f7f7f7;\n  background-color: var(--background-alt);\n}\n\n@media (prefers-color-scheme: dark) {\n  tbody tr:nth-child(even) button {\n    background-color: #1a242f;\n    background-color: var(--background-alt);\n  }\n}\ntbody tr:nth-child(even) button:hover {\n  background-color: #fff;\n  background-color: var(--background-body);\n}\n\n@media (prefers-color-scheme: dark) {\n  tbody tr:nth-child(even) button:hover {\n    background-color: #202b38;\n    background-color: var(--background-body);\n  }\n}\n::-webkit-scrollbar {\n  height: 10px;\n  width: 10px;\n}\n\n::-webkit-scrollbar-track {\n  background: #efefef;\n  background: var(--background);\n  border-radius: 6px;\n}\n\n@media (prefers-color-scheme: dark) {\n  ::-webkit-scrollbar-track {\n    background: #161f27;\n    background: var(--background);\n  }\n}\n::-webkit-scrollbar-thumb {\n  background: rgb(170, 170, 170);\n  background: var(--scrollbar-thumb);\n  border-radius: 6px;\n}\n\n@media (prefers-color-scheme: dark) {\n  ::-webkit-scrollbar-thumb {\n    background: #040a0f;\n    background: var(--scrollbar-thumb);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  ::-webkit-scrollbar-thumb {\n    background: #040a0f;\n    background: var(--scrollbar-thumb);\n  }\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #9b9b9b;\n  background: var(--scrollbar-thumb-hover);\n}\n\n@media (prefers-color-scheme: dark) {\n  ::-webkit-scrollbar-thumb:hover {\n    background: rgb(0, 0, 0);\n    background: var(--scrollbar-thumb-hover);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  ::-webkit-scrollbar-thumb:hover {\n    background: rgb(0, 0, 0);\n    background: var(--scrollbar-thumb-hover);\n  }\n}\n::-moz-selection {\n  background-color: #9e9e9e;\n  background-color: var(--selection);\n  color: #000;\n  color: var(--text-bright);\n}\n\n::selection {\n  background-color: #9e9e9e;\n  background-color: var(--selection);\n  color: #000;\n  color: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n  ::-moz-selection {\n    color: #fff;\n    color: var(--text-bright);\n  }\n  ::selection {\n    color: #fff;\n    color: var(--text-bright);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  ::-moz-selection {\n    background-color: #1c76c5;\n    background-color: var(--selection);\n  }\n  ::selection {\n    background-color: #1c76c5;\n    background-color: var(--selection);\n  }\n}\ndetails {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  background-color: #f7f7f7;\n  background-color: var(--background-alt);\n  padding: 10px 10px 0;\n  margin: 1em 0;\n  border-radius: 6px;\n  overflow: hidden;\n}\n\n@media (prefers-color-scheme: dark) {\n  details {\n    background-color: #1a242f;\n    background-color: var(--background-alt);\n  }\n}\ndetails[open] {\n  padding: 10px;\n}\n\ndetails > :last-child {\n  margin-bottom: 0;\n}\n\ndetails[open] summary {\n  margin-bottom: 10px;\n}\n\nsummary {\n  display: list-item;\n  background-color: #efefef;\n  background-color: var(--background);\n  padding: 10px;\n  margin: -10px -10px 0;\n  cursor: pointer;\n  outline: none;\n}\n\n@media (prefers-color-scheme: dark) {\n  summary {\n    background-color: #161f27;\n    background-color: var(--background);\n  }\n}\nsummary:hover,\nsummary:focus {\n  text-decoration: underline;\n}\n\ndetails > :not(summary) {\n  margin-top: 0;\n}\n\nsummary::-webkit-details-marker {\n  color: #363636;\n  color: var(--text-main);\n}\n\n@media (prefers-color-scheme: dark) {\n  summary::-webkit-details-marker {\n    color: #dbdbdb;\n    color: var(--text-main);\n  }\n}\ndialog {\n  background-color: #f7f7f7;\n  background-color: var(--background-alt);\n  color: #363636;\n  color: var(--text-main);\n  border: none;\n  border-radius: 6px;\n  border-color: #dbdbdb;\n  border-color: var(--border);\n  padding: 10px 30px;\n}\n\n@media (prefers-color-scheme: dark) {\n  dialog {\n    border-color: #526980;\n    border-color: var(--border);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  dialog {\n    color: #dbdbdb;\n    color: var(--text-main);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  dialog {\n    background-color: #1a242f;\n    background-color: var(--background-alt);\n  }\n}\ndialog > header:first-child {\n  background-color: #efefef;\n  background-color: var(--background);\n  border-radius: 6px 6px 0 0;\n  margin: -10px -30px 10px;\n  padding: 10px;\n  text-align: center;\n}\n\n@media (prefers-color-scheme: dark) {\n  dialog > header:first-child {\n    background-color: #161f27;\n    background-color: var(--background);\n  }\n}\ndialog::-webkit-backdrop {\n  background: rgba(0, 0, 0, 0.6117647059);\n  -webkit-backdrop-filter: blur(4px);\n  backdrop-filter: blur(4px);\n}\n\ndialog::backdrop {\n  background: rgba(0, 0, 0, 0.6117647059);\n  -webkit-backdrop-filter: blur(4px);\n  backdrop-filter: blur(4px);\n}\n\nfooter {\n  border-top: 1px solid #dbdbdb;\n  border-top: 1px solid var(--border);\n  padding-top: 10px;\n  color: #70777f;\n  color: var(--text-muted);\n}\n\n@media (prefers-color-scheme: dark) {\n  footer {\n    color: #a9b1ba;\n    color: var(--text-muted);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  footer {\n    border-top: 1px solid #526980;\n    border-top: 1px solid var(--border);\n  }\n}\nbody > footer {\n  margin-top: 40px;\n}\n\n@media print {\n  body,\n  pre,\n  code,\n  summary,\n  details,\n  button,\n  input,\n  textarea {\n    background-color: #fff;\n  }\n  button,\n  input,\n  textarea {\n    border: 1px solid #000;\n  }\n  body,\n  h1,\n  h2,\n  h3,\n  h4,\n  h5,\n  h6,\n  pre,\n  code,\n  button,\n  input,\n  textarea,\n  footer,\n  summary,\n  strong {\n    color: #000;\n  }\n  summary::marker {\n    color: #000;\n  }\n  summary::-webkit-details-marker {\n    color: #000;\n  }\n  tbody tr:nth-child(even) {\n    background-color: #f2f2f2;\n  }\n  a {\n    color: #00f;\n    text-decoration: underline;\n  }\n}", "",{"version":3,"sources":["webpack://./src/pages/Popup/index.css"],"names":[],"mappings":"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","sourcesContent":["/**\n * Automatic version:\n * Uses light theme by default but switches to dark theme\n * if a system-wide theme preference is set on the user's device.\n */\n\n:root {\n\t--background-body: #fff;\n\t--background: #efefef;\n\t--background-alt: #f7f7f7;\n\t--selection: #9e9e9e;\n\t--text-main: #363636;\n\t--text-bright: #000;\n\t--text-muted: #70777f;\n\t--links: #0076d1;\n\t--focus: #0096bfab;\n\t--border: #dbdbdb;\n\t--code: #000;\n\t--animation-duration: 0.1s;\n\t--button-base: #d0cfcf;\n\t--button-hover: #9b9b9b;\n\t--scrollbar-thumb: rgb(170, 170, 170);\n\t--scrollbar-thumb-hover: var(--button-hover);\n\t--form-placeholder: #949494;\n\t--form-text: #1d1d1d;\n\t--variable: #39a33c;\n\t--highlight: #ff0;\n\t--select-arrow: url(\"data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='62.5' width='116.9' fill='%23161f27'%3E %3Cpath d='M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z'/%3E %3C/svg%3E\");\n}\n\n@media (prefers-color-scheme: dark) {\n\t:root {\n\t\t--background-body: #202b38;\n\t\t--background: #161f27;\n\t\t--background-alt: #1a242f;\n\t\t--selection: #1c76c5;\n\t\t--text-main: #dbdbdb;\n\t\t--text-bright: #fff;\n\t\t--text-muted: #a9b1ba;\n\t\t--links: #41adff;\n\t\t--focus: #0096bfab;\n\t\t--border: #526980;\n\t\t--code: #ffbe85;\n\t\t--animation-duration: 0.1s;\n\t\t--button-base: #0c151c;\n\t\t--button-hover: #040a0f;\n\t\t--scrollbar-thumb: var(--button-hover);\n\t\t--scrollbar-thumb-hover: rgb(0, 0, 0);\n\t\t--form-placeholder: #a9a9a9;\n\t\t--form-text: #fff;\n\t\t--variable: #d941e2;\n\t\t--highlight: #efdb43;\n\t\t--select-arrow: url(\"data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='62.5' width='116.9' fill='%23efefef'%3E %3Cpath d='M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z'/%3E %3C/svg%3E\");\n\t}\n}\n\nhtml {\n\tscrollbar-color: rgb(170, 170, 170) #fff;\n\tscrollbar-color: var(--scrollbar-thumb) var(--background-body);\n\tscrollbar-width: thin;\n}\n\n@media (prefers-color-scheme: dark) {\n\thtml {\n\t\tscrollbar-color: #040a0f #202b38;\n\t\tscrollbar-color: var(--scrollbar-thumb) var(--background-body);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\thtml {\n\t\tscrollbar-color: #040a0f #202b38;\n\t\tscrollbar-color: var(--scrollbar-thumb) var(--background-body);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\thtml {\n\t\tscrollbar-color: #040a0f #202b38;\n\t\tscrollbar-color: var(--scrollbar-thumb) var(--background-body);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\thtml {\n\t\tscrollbar-color: #040a0f #202b38;\n\t\tscrollbar-color: var(--scrollbar-thumb) var(--background-body);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\thtml {\n\t\tscrollbar-color: #040a0f #202b38;\n\t\tscrollbar-color: var(--scrollbar-thumb) var(--background-body);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\thtml {\n\t\tscrollbar-color: #040a0f #202b38;\n\t\tscrollbar-color: var(--scrollbar-thumb) var(--background-body);\n\t}\n}\n\nbody {\n\tfont-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\",\n\t\t\"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\",\n\t\t\"Helvetica Neue\", \"Segoe UI Emoji\", \"Apple Color Emoji\",\n\t\t\"Noto Color Emoji\", sans-serif;\n\tline-height: 1.4;\n\twidth: 300px;\n\theight: 300px;\n\tmax-width: 800px;\n\tmargin: 20px auto;\n\tpadding: 0 10px;\n\tword-wrap: break-word;\n\tcolor: #363636;\n\tcolor: var(--text-main);\n\tbackground: #fff;\n\tbackground: var(--background-body);\n\ttext-rendering: optimizeLegibility;\n}\n\n@media (prefers-color-scheme: dark) {\n\tbody {\n\t\tbackground: #202b38;\n\t\tbackground: var(--background-body);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tbody {\n\t\tcolor: #dbdbdb;\n\t\tcolor: var(--text-main);\n\t}\n}\n\nbutton {\n\ttransition: background-color 0.1s linear, border-color 0.1s linear,\n\t\tcolor 0.1s linear, box-shadow 0.1s linear, transform 0.1s ease;\n\ttransition: background-color var(--animation-duration) linear,\n\t\tborder-color var(--animation-duration) linear,\n\t\tcolor var(--animation-duration) linear,\n\t\tbox-shadow var(--animation-duration) linear,\n\t\ttransform var(--animation-duration) ease;\n}\n\n@media (prefers-color-scheme: dark) {\n\tbutton {\n\t\ttransition: background-color 0.1s linear, border-color 0.1s linear,\n\t\t\tcolor 0.1s linear, box-shadow 0.1s linear, transform 0.1s ease;\n\t\ttransition: background-color var(--animation-duration) linear,\n\t\t\tborder-color var(--animation-duration) linear,\n\t\t\tcolor var(--animation-duration) linear,\n\t\t\tbox-shadow var(--animation-duration) linear,\n\t\t\ttransform var(--animation-duration) ease;\n\t}\n}\n\ninput {\n\ttransition: background-color 0.1s linear, border-color 0.1s linear,\n\t\tcolor 0.1s linear, box-shadow 0.1s linear, transform 0.1s ease;\n\ttransition: background-color var(--animation-duration) linear,\n\t\tborder-color var(--animation-duration) linear,\n\t\tcolor var(--animation-duration) linear,\n\t\tbox-shadow var(--animation-duration) linear,\n\t\ttransform var(--animation-duration) ease;\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput {\n\t\ttransition: background-color 0.1s linear, border-color 0.1s linear,\n\t\t\tcolor 0.1s linear, box-shadow 0.1s linear, transform 0.1s ease;\n\t\ttransition: background-color var(--animation-duration) linear,\n\t\t\tborder-color var(--animation-duration) linear,\n\t\t\tcolor var(--animation-duration) linear,\n\t\t\tbox-shadow var(--animation-duration) linear,\n\t\t\ttransform var(--animation-duration) ease;\n\t}\n}\n\ntextarea {\n\ttransition: background-color 0.1s linear, border-color 0.1s linear,\n\t\tcolor 0.1s linear, box-shadow 0.1s linear, transform 0.1s ease;\n\ttransition: background-color var(--animation-duration) linear,\n\t\tborder-color var(--animation-duration) linear,\n\t\tcolor var(--animation-duration) linear,\n\t\tbox-shadow var(--animation-duration) linear,\n\t\ttransform var(--animation-duration) ease;\n}\n\n@media (prefers-color-scheme: dark) {\n\ttextarea {\n\t\ttransition: background-color 0.1s linear, border-color 0.1s linear,\n\t\t\tcolor 0.1s linear, box-shadow 0.1s linear, transform 0.1s ease;\n\t\ttransition: background-color var(--animation-duration) linear,\n\t\t\tborder-color var(--animation-duration) linear,\n\t\t\tcolor var(--animation-duration) linear,\n\t\t\tbox-shadow var(--animation-duration) linear,\n\t\t\ttransform var(--animation-duration) ease;\n\t}\n}\n\nh1 {\n\tfont-size: 2.2em;\n\tmargin-top: 0;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n\tmargin-bottom: 12px;\n\tmargin-top: 24px;\n}\n\nh1 {\n\tcolor: #000;\n\tcolor: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n\th1 {\n\t\tcolor: #fff;\n\t\tcolor: var(--text-bright);\n\t}\n}\n\nh2 {\n\tcolor: #000;\n\tcolor: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n\th2 {\n\t\tcolor: #fff;\n\t\tcolor: var(--text-bright);\n\t}\n}\n\nh3 {\n\tcolor: #000;\n\tcolor: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n\th3 {\n\t\tcolor: #fff;\n\t\tcolor: var(--text-bright);\n\t}\n}\n\nh4 {\n\tcolor: #000;\n\tcolor: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n\th4 {\n\t\tcolor: #fff;\n\t\tcolor: var(--text-bright);\n\t}\n}\n\nh5 {\n\tcolor: #000;\n\tcolor: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n\th5 {\n\t\tcolor: #fff;\n\t\tcolor: var(--text-bright);\n\t}\n}\n\nh6 {\n\tcolor: #000;\n\tcolor: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n\th6 {\n\t\tcolor: #fff;\n\t\tcolor: var(--text-bright);\n\t}\n}\n\nstrong {\n\tcolor: #000;\n\tcolor: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n\tstrong {\n\t\tcolor: #fff;\n\t\tcolor: var(--text-bright);\n\t}\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nb,\nstrong,\nth {\n\tfont-weight: 600;\n}\n\nq::before {\n\tcontent: none;\n}\n\nq::after {\n\tcontent: none;\n}\n\nblockquote {\n\tborder-left: 4px solid #0096bfab;\n\tborder-left: 4px solid var(--focus);\n\tmargin: 1.5em 0;\n\tpadding: 0.5em 1em;\n\tfont-style: italic;\n}\n\n@media (prefers-color-scheme: dark) {\n\tblockquote {\n\t\tborder-left: 4px solid #0096bfab;\n\t\tborder-left: 4px solid var(--focus);\n\t}\n}\n\nq {\n\tborder-left: 4px solid #0096bfab;\n\tborder-left: 4px solid var(--focus);\n\tmargin: 1.5em 0;\n\tpadding: 0.5em 1em;\n\tfont-style: italic;\n}\n\n@media (prefers-color-scheme: dark) {\n\tq {\n\t\tborder-left: 4px solid #0096bfab;\n\t\tborder-left: 4px solid var(--focus);\n\t}\n}\n\nblockquote > footer {\n\tfont-style: normal;\n\tborder: 0;\n}\n\nblockquote cite {\n\tfont-style: normal;\n}\n\naddress {\n\tfont-style: normal;\n}\n\na[href^=\"mailto\\:\"]::before {\n\tcontent: \"📧 \";\n}\n\na[href^=\"tel\\:\"]::before {\n\tcontent: \"📞 \";\n}\n\na[href^=\"sms\\:\"]::before {\n\tcontent: \"💬 \";\n}\n\nmark {\n\tbackground-color: #ff0;\n\tbackground-color: var(--highlight);\n\tborder-radius: 2px;\n\tpadding: 0 2px 0 2px;\n\tcolor: #000;\n}\n\n@media (prefers-color-scheme: dark) {\n\tmark {\n\t\tbackground-color: #efdb43;\n\t\tbackground-color: var(--highlight);\n\t}\n}\n\na > code,\na > strong {\n\tcolor: inherit;\n}\n\nbutton,\nselect,\ninput[type=\"submit\"],\ninput[type=\"reset\"],\ninput[type=\"button\"],\ninput[type=\"checkbox\"],\ninput[type=\"range\"],\ninput[type=\"radio\"] {\n\tcursor: pointer;\n}\n\ninput,\nselect {\n\tdisplay: block;\n}\n\n[type=\"checkbox\"],\n[type=\"radio\"] {\n\tdisplay: initial;\n}\n\ninput {\n\tcolor: #1d1d1d;\n\tcolor: var(--form-text);\n\tbackground-color: #efefef;\n\tbackground-color: var(--background);\n\tfont-family: inherit;\n\tfont-size: inherit;\n\tmargin-right: 6px;\n\tmargin-bottom: 6px;\n\tpadding: 10px;\n\tborder: none;\n\tborder-radius: 6px;\n\toutline: none;\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput {\n\t\tbackground-color: #161f27;\n\t\tbackground-color: var(--background);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput {\n\t\tcolor: #fff;\n\t\tcolor: var(--form-text);\n\t}\n}\n\nbutton {\n\tcolor: #1d1d1d;\n\tcolor: var(--form-text);\n\tbackground-color: #efefef;\n\tbackground-color: var(--background);\n\tfont-family: inherit;\n\tfont-size: inherit;\n\tmargin-right: 6px;\n\tmargin-bottom: 6px;\n\tpadding: 10px;\n\tborder: none;\n\tborder-radius: 6px;\n\toutline: none;\n}\n\n@media (prefers-color-scheme: dark) {\n\tbutton {\n\t\tbackground-color: #161f27;\n\t\tbackground-color: var(--background);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tbutton {\n\t\tcolor: #fff;\n\t\tcolor: var(--form-text);\n\t}\n}\n\ntextarea {\n\tcolor: #1d1d1d;\n\tcolor: var(--form-text);\n\tbackground-color: #efefef;\n\tbackground-color: var(--background);\n\tfont-family: inherit;\n\tfont-size: inherit;\n\tmargin-right: 6px;\n\tmargin-bottom: 6px;\n\tpadding: 10px;\n\tborder: none;\n\tborder-radius: 6px;\n\toutline: none;\n}\n\n@media (prefers-color-scheme: dark) {\n\ttextarea {\n\t\tbackground-color: #161f27;\n\t\tbackground-color: var(--background);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\ttextarea {\n\t\tcolor: #fff;\n\t\tcolor: var(--form-text);\n\t}\n}\n\nselect {\n\tcolor: #1d1d1d;\n\tcolor: var(--form-text);\n\tbackground-color: #efefef;\n\tbackground-color: var(--background);\n\tfont-family: inherit;\n\tfont-size: inherit;\n\tmargin-right: 6px;\n\tmargin-bottom: 6px;\n\tpadding: 10px;\n\tborder: none;\n\tborder-radius: 6px;\n\toutline: none;\n}\n\n@media (prefers-color-scheme: dark) {\n\tselect {\n\t\tbackground-color: #161f27;\n\t\tbackground-color: var(--background);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tselect {\n\t\tcolor: #fff;\n\t\tcolor: var(--form-text);\n\t}\n}\n\nbutton {\n\tbackground-color: #d0cfcf;\n\tbackground-color: var(--button-base);\n\tpadding-right: 30px;\n\tpadding-left: 30px;\n}\n\n@media (prefers-color-scheme: dark) {\n\tbutton {\n\t\tbackground-color: #0c151c;\n\t\tbackground-color: var(--button-base);\n\t}\n}\n\ninput[type=\"submit\"] {\n\tbackground-color: #d0cfcf;\n\tbackground-color: var(--button-base);\n\tpadding-right: 30px;\n\tpadding-left: 30px;\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"submit\"] {\n\t\tbackground-color: #0c151c;\n\t\tbackground-color: var(--button-base);\n\t}\n}\n\ninput[type=\"reset\"] {\n\tbackground-color: #d0cfcf;\n\tbackground-color: var(--button-base);\n\tpadding-right: 30px;\n\tpadding-left: 30px;\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"reset\"] {\n\t\tbackground-color: #0c151c;\n\t\tbackground-color: var(--button-base);\n\t}\n}\n\ninput[type=\"button\"] {\n\tbackground-color: #d0cfcf;\n\tbackground-color: var(--button-base);\n\tpadding-right: 30px;\n\tpadding-left: 30px;\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"button\"] {\n\t\tbackground-color: #0c151c;\n\t\tbackground-color: var(--button-base);\n\t}\n}\n\nbutton:hover {\n\tbackground: #9b9b9b;\n\tbackground: var(--button-hover);\n}\n\n@media (prefers-color-scheme: dark) {\n\tbutton:hover {\n\t\tbackground: #040a0f;\n\t\tbackground: var(--button-hover);\n\t}\n}\n\ninput[type=\"submit\"]:hover {\n\tbackground: #9b9b9b;\n\tbackground: var(--button-hover);\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"submit\"]:hover {\n\t\tbackground: #040a0f;\n\t\tbackground: var(--button-hover);\n\t}\n}\n\ninput[type=\"reset\"]:hover {\n\tbackground: #9b9b9b;\n\tbackground: var(--button-hover);\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"reset\"]:hover {\n\t\tbackground: #040a0f;\n\t\tbackground: var(--button-hover);\n\t}\n}\n\ninput[type=\"button\"]:hover {\n\tbackground: #9b9b9b;\n\tbackground: var(--button-hover);\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"button\"]:hover {\n\t\tbackground: #040a0f;\n\t\tbackground: var(--button-hover);\n\t}\n}\n\ninput[type=\"color\"] {\n\tmin-height: 2rem;\n\tpadding: 8px;\n\tcursor: pointer;\n}\n\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n\theight: 1em;\n\twidth: 1em;\n}\n\ninput[type=\"radio\"] {\n\tborder-radius: 100%;\n}\n\ninput {\n\tvertical-align: top;\n}\n\nlabel {\n\tvertical-align: middle;\n\tmargin-bottom: 4px;\n\tdisplay: inline-block;\n}\n\ninput:not([type=\"checkbox\"]):not([type=\"radio\"]),\ninput[type=\"range\"],\nselect,\nbutton,\ntextarea {\n\t-webkit-appearance: none;\n}\n\ntextarea {\n\tdisplay: block;\n\tmargin-right: 0;\n\tbox-sizing: border-box;\n\tresize: vertical;\n}\n\ntextarea:not([cols]) {\n\twidth: 100%;\n}\n\ntextarea:not([rows]) {\n\tmin-height: 40px;\n\theight: 140px;\n}\n\nselect {\n\tbackground: #efefef\n\t\turl(\"data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='62.5' width='116.9' fill='%23161f27'%3E %3Cpath d='M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z'/%3E %3C/svg%3E\")\n\t\tcalc(100% - 12px) 50% / 12px no-repeat;\n\tbackground: var(--background) var(--select-arrow) calc(100% - 12px) 50% /\n\t\t12px no-repeat;\n\tpadding-right: 35px;\n}\n\n@media (prefers-color-scheme: dark) {\n\tselect {\n\t\tbackground: #161f27\n\t\t\turl(\"data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='62.5' width='116.9' fill='%23efefef'%3E %3Cpath d='M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z'/%3E %3C/svg%3E\")\n\t\t\tcalc(100% - 12px) 50% / 12px no-repeat;\n\t\tbackground: var(--background) var(--select-arrow) calc(100% - 12px) 50% /\n\t\t\t12px no-repeat;\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tselect {\n\t\tbackground: #161f27\n\t\t\turl(\"data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='62.5' width='116.9' fill='%23efefef'%3E %3Cpath d='M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z'/%3E %3C/svg%3E\")\n\t\t\tcalc(100% - 12px) 50% / 12px no-repeat;\n\t\tbackground: var(--background) var(--select-arrow) calc(100% - 12px) 50% /\n\t\t\t12px no-repeat;\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tselect {\n\t\tbackground: #161f27\n\t\t\turl(\"data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='62.5' width='116.9' fill='%23efefef'%3E %3Cpath d='M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z'/%3E %3C/svg%3E\")\n\t\t\tcalc(100% - 12px) 50% / 12px no-repeat;\n\t\tbackground: var(--background) var(--select-arrow) calc(100% - 12px) 50% /\n\t\t\t12px no-repeat;\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tselect {\n\t\tbackground: #161f27\n\t\t\turl(\"data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='62.5' width='116.9' fill='%23efefef'%3E %3Cpath d='M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z'/%3E %3C/svg%3E\")\n\t\t\tcalc(100% - 12px) 50% / 12px no-repeat;\n\t\tbackground: var(--background) var(--select-arrow) calc(100% - 12px) 50% /\n\t\t\t12px no-repeat;\n\t}\n}\n\nselect::-ms-expand {\n\tdisplay: none;\n}\n\nselect[multiple] {\n\tpadding-right: 10px;\n\tbackground-image: none;\n\toverflow-y: auto;\n}\n\ninput:focus {\n\tbox-shadow: 0 0 0 2px #0096bfab;\n\tbox-shadow: 0 0 0 2px var(--focus);\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput:focus {\n\t\tbox-shadow: 0 0 0 2px #0096bfab;\n\t\tbox-shadow: 0 0 0 2px var(--focus);\n\t}\n}\n\nselect:focus {\n\tbox-shadow: 0 0 0 2px #0096bfab;\n\tbox-shadow: 0 0 0 2px var(--focus);\n}\n\n@media (prefers-color-scheme: dark) {\n\tselect:focus {\n\t\tbox-shadow: 0 0 0 2px #0096bfab;\n\t\tbox-shadow: 0 0 0 2px var(--focus);\n\t}\n}\n\nbutton:focus {\n\tbox-shadow: 0 0 0 2px #0096bfab;\n\tbox-shadow: 0 0 0 2px var(--focus);\n}\n\n@media (prefers-color-scheme: dark) {\n\tbutton:focus {\n\t\tbox-shadow: 0 0 0 2px #0096bfab;\n\t\tbox-shadow: 0 0 0 2px var(--focus);\n\t}\n}\n\ntextarea:focus {\n\tbox-shadow: 0 0 0 2px #0096bfab;\n\tbox-shadow: 0 0 0 2px var(--focus);\n}\n\n@media (prefers-color-scheme: dark) {\n\ttextarea:focus {\n\t\tbox-shadow: 0 0 0 2px #0096bfab;\n\t\tbox-shadow: 0 0 0 2px var(--focus);\n\t}\n}\n\ninput[type=\"checkbox\"]:active,\ninput[type=\"radio\"]:active,\ninput[type=\"submit\"]:active,\ninput[type=\"reset\"]:active,\ninput[type=\"button\"]:active,\ninput[type=\"range\"]:active,\nbutton:active {\n\ttransform: translateY(2px);\n}\n\ninput:disabled,\nselect:disabled,\nbutton:disabled,\ntextarea:disabled {\n\tcursor: not-allowed;\n\topacity: 0.5;\n}\n\n::-moz-placeholder {\n\tcolor: #949494;\n\tcolor: var(--form-placeholder);\n}\n\n:-ms-input-placeholder {\n\tcolor: #949494;\n\tcolor: var(--form-placeholder);\n}\n\n::-ms-input-placeholder {\n\tcolor: #949494;\n\tcolor: var(--form-placeholder);\n}\n\n::placeholder {\n\tcolor: #949494;\n\tcolor: var(--form-placeholder);\n}\n\n@media (prefers-color-scheme: dark) {\n\t::-moz-placeholder {\n\t\tcolor: #a9a9a9;\n\t\tcolor: var(--form-placeholder);\n\t}\n\n\t:-ms-input-placeholder {\n\t\tcolor: #a9a9a9;\n\t\tcolor: var(--form-placeholder);\n\t}\n\n\t::-ms-input-placeholder {\n\t\tcolor: #a9a9a9;\n\t\tcolor: var(--form-placeholder);\n\t}\n\n\t::placeholder {\n\t\tcolor: #a9a9a9;\n\t\tcolor: var(--form-placeholder);\n\t}\n}\n\nfieldset {\n\tborder: 1px #0096bfab solid;\n\tborder: 1px var(--focus) solid;\n\tborder-radius: 6px;\n\tmargin: 0;\n\tmargin-bottom: 12px;\n\tpadding: 10px;\n}\n\n@media (prefers-color-scheme: dark) {\n\tfieldset {\n\t\tborder: 1px #0096bfab solid;\n\t\tborder: 1px var(--focus) solid;\n\t}\n}\n\nlegend {\n\tfont-size: 0.9em;\n\tfont-weight: 600;\n}\n\ninput[type=\"range\"] {\n\tmargin: 10px 0;\n\tpadding: 10px 0;\n\tbackground: transparent;\n}\n\ninput[type=\"range\"]:focus {\n\toutline: none;\n}\n\ninput[type=\"range\"]::-webkit-slider-runnable-track {\n\twidth: 100%;\n\theight: 9.5px;\n\t-webkit-transition: 0.2s;\n\ttransition: 0.2s;\n\tbackground: #efefef;\n\tbackground: var(--background);\n\tborder-radius: 3px;\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"range\"]::-webkit-slider-runnable-track {\n\t\tbackground: #161f27;\n\t\tbackground: var(--background);\n\t}\n}\n\ninput[type=\"range\"]::-webkit-slider-thumb {\n\tbox-shadow: 0 1px 1px #000, 0 0 1px #0d0d0d;\n\theight: 20px;\n\twidth: 20px;\n\tborder-radius: 50%;\n\tbackground: #dbdbdb;\n\tbackground: var(--border);\n\t-webkit-appearance: none;\n\tmargin-top: -7px;\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"range\"]::-webkit-slider-thumb {\n\t\tbackground: #526980;\n\t\tbackground: var(--border);\n\t}\n}\n\ninput[type=\"range\"]:focus::-webkit-slider-runnable-track {\n\tbackground: #efefef;\n\tbackground: var(--background);\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"range\"]:focus::-webkit-slider-runnable-track {\n\t\tbackground: #161f27;\n\t\tbackground: var(--background);\n\t}\n}\n\ninput[type=\"range\"]::-moz-range-track {\n\twidth: 100%;\n\theight: 9.5px;\n\t-moz-transition: 0.2s;\n\ttransition: 0.2s;\n\tbackground: #efefef;\n\tbackground: var(--background);\n\tborder-radius: 3px;\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"range\"]::-moz-range-track {\n\t\tbackground: #161f27;\n\t\tbackground: var(--background);\n\t}\n}\n\ninput[type=\"range\"]::-moz-range-thumb {\n\tbox-shadow: 1px 1px 1px #000, 0 0 1px #0d0d0d;\n\theight: 20px;\n\twidth: 20px;\n\tborder-radius: 50%;\n\tbackground: #dbdbdb;\n\tbackground: var(--border);\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"range\"]::-moz-range-thumb {\n\t\tbackground: #526980;\n\t\tbackground: var(--border);\n\t}\n}\n\ninput[type=\"range\"]::-ms-track {\n\twidth: 100%;\n\theight: 9.5px;\n\tbackground: transparent;\n\tborder-color: transparent;\n\tborder-width: 16px 0;\n\tcolor: transparent;\n}\n\ninput[type=\"range\"]::-ms-fill-lower {\n\tbackground: #efefef;\n\tbackground: var(--background);\n\tborder: 0.2px solid #010101;\n\tborder-radius: 3px;\n\tbox-shadow: 1px 1px 1px #000, 0 0 1px #0d0d0d;\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"range\"]::-ms-fill-lower {\n\t\tbackground: #161f27;\n\t\tbackground: var(--background);\n\t}\n}\n\ninput[type=\"range\"]::-ms-fill-upper {\n\tbackground: #efefef;\n\tbackground: var(--background);\n\tborder: 0.2px solid #010101;\n\tborder-radius: 3px;\n\tbox-shadow: 1px 1px 1px #000, 0 0 1px #0d0d0d;\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"range\"]::-ms-fill-upper {\n\t\tbackground: #161f27;\n\t\tbackground: var(--background);\n\t}\n}\n\ninput[type=\"range\"]::-ms-thumb {\n\tbox-shadow: 1px 1px 1px #000, 0 0 1px #0d0d0d;\n\tborder: 1px solid #000;\n\theight: 20px;\n\twidth: 20px;\n\tborder-radius: 50%;\n\tbackground: #dbdbdb;\n\tbackground: var(--border);\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"range\"]::-ms-thumb {\n\t\tbackground: #526980;\n\t\tbackground: var(--border);\n\t}\n}\n\ninput[type=\"range\"]:focus::-ms-fill-lower {\n\tbackground: #efefef;\n\tbackground: var(--background);\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"range\"]:focus::-ms-fill-lower {\n\t\tbackground: #161f27;\n\t\tbackground: var(--background);\n\t}\n}\n\ninput[type=\"range\"]:focus::-ms-fill-upper {\n\tbackground: #efefef;\n\tbackground: var(--background);\n}\n\n@media (prefers-color-scheme: dark) {\n\tinput[type=\"range\"]:focus::-ms-fill-upper {\n\t\tbackground: #161f27;\n\t\tbackground: var(--background);\n\t}\n}\n\na {\n\ttext-decoration: none;\n\tcolor: #0076d1;\n\tcolor: var(--links);\n}\n\n@media (prefers-color-scheme: dark) {\n\ta {\n\t\tcolor: #41adff;\n\t\tcolor: var(--links);\n\t}\n}\n\na:hover {\n\ttext-decoration: underline;\n}\n\ncode {\n\tbackground: #efefef;\n\tbackground: var(--background);\n\tcolor: #000;\n\tcolor: var(--code);\n\tpadding: 2.5px 5px;\n\tborder-radius: 6px;\n\tfont-size: 1em;\n}\n\n@media (prefers-color-scheme: dark) {\n\tcode {\n\t\tcolor: #ffbe85;\n\t\tcolor: var(--code);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tcode {\n\t\tbackground: #161f27;\n\t\tbackground: var(--background);\n\t}\n}\n\nsamp {\n\tbackground: #efefef;\n\tbackground: var(--background);\n\tcolor: #000;\n\tcolor: var(--code);\n\tpadding: 2.5px 5px;\n\tborder-radius: 6px;\n\tfont-size: 1em;\n}\n\n@media (prefers-color-scheme: dark) {\n\tsamp {\n\t\tcolor: #ffbe85;\n\t\tcolor: var(--code);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tsamp {\n\t\tbackground: #161f27;\n\t\tbackground: var(--background);\n\t}\n}\n\ntime {\n\tbackground: #efefef;\n\tbackground: var(--background);\n\tcolor: #000;\n\tcolor: var(--code);\n\tpadding: 2.5px 5px;\n\tborder-radius: 6px;\n\tfont-size: 1em;\n}\n\n@media (prefers-color-scheme: dark) {\n\ttime {\n\t\tcolor: #ffbe85;\n\t\tcolor: var(--code);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\ttime {\n\t\tbackground: #161f27;\n\t\tbackground: var(--background);\n\t}\n}\n\npre > code {\n\tpadding: 10px;\n\tdisplay: block;\n\toverflow-x: auto;\n}\n\nvar {\n\tcolor: #39a33c;\n\tcolor: var(--variable);\n\tfont-style: normal;\n\tfont-family: monospace;\n}\n\n@media (prefers-color-scheme: dark) {\n\tvar {\n\t\tcolor: #d941e2;\n\t\tcolor: var(--variable);\n\t}\n}\n\nkbd {\n\tbackground: #efefef;\n\tbackground: var(--background);\n\tborder: 1px solid #dbdbdb;\n\tborder: 1px solid var(--border);\n\tborder-radius: 2px;\n\tcolor: #363636;\n\tcolor: var(--text-main);\n\tpadding: 2px 4px 2px 4px;\n}\n\n@media (prefers-color-scheme: dark) {\n\tkbd {\n\t\tcolor: #dbdbdb;\n\t\tcolor: var(--text-main);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tkbd {\n\t\tborder: 1px solid #526980;\n\t\tborder: 1px solid var(--border);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tkbd {\n\t\tbackground: #161f27;\n\t\tbackground: var(--background);\n\t}\n}\n\nimg,\nvideo {\n\tmax-width: 100%;\n\theight: auto;\n}\n\nhr {\n\tborder: none;\n\tborder-top: 1px solid #dbdbdb;\n\tborder-top: 1px solid var(--border);\n}\n\n@media (prefers-color-scheme: dark) {\n\thr {\n\t\tborder-top: 1px solid #526980;\n\t\tborder-top: 1px solid var(--border);\n\t}\n}\n\ntable {\n\tborder-collapse: collapse;\n\tmargin-bottom: 10px;\n\twidth: 100%;\n\ttable-layout: fixed;\n}\n\ntable caption {\n\ttext-align: left;\n}\n\ntd,\nth {\n\tpadding: 6px;\n\ttext-align: left;\n\tvertical-align: top;\n\tword-wrap: break-word;\n}\n\nthead {\n\tborder-bottom: 1px solid #dbdbdb;\n\tborder-bottom: 1px solid var(--border);\n}\n\n@media (prefers-color-scheme: dark) {\n\tthead {\n\t\tborder-bottom: 1px solid #526980;\n\t\tborder-bottom: 1px solid var(--border);\n\t}\n}\n\ntfoot {\n\tborder-top: 1px solid #dbdbdb;\n\tborder-top: 1px solid var(--border);\n}\n\n@media (prefers-color-scheme: dark) {\n\ttfoot {\n\t\tborder-top: 1px solid #526980;\n\t\tborder-top: 1px solid var(--border);\n\t}\n}\n\ntbody tr:nth-child(even) {\n\tbackground-color: #efefef;\n\tbackground-color: var(--background);\n}\n\n@media (prefers-color-scheme: dark) {\n\ttbody tr:nth-child(even) {\n\t\tbackground-color: #161f27;\n\t\tbackground-color: var(--background);\n\t}\n}\n\ntbody tr:nth-child(even) button {\n\tbackground-color: #f7f7f7;\n\tbackground-color: var(--background-alt);\n}\n\n@media (prefers-color-scheme: dark) {\n\ttbody tr:nth-child(even) button {\n\t\tbackground-color: #1a242f;\n\t\tbackground-color: var(--background-alt);\n\t}\n}\n\ntbody tr:nth-child(even) button:hover {\n\tbackground-color: #fff;\n\tbackground-color: var(--background-body);\n}\n\n@media (prefers-color-scheme: dark) {\n\ttbody tr:nth-child(even) button:hover {\n\t\tbackground-color: #202b38;\n\t\tbackground-color: var(--background-body);\n\t}\n}\n\n::-webkit-scrollbar {\n\theight: 10px;\n\twidth: 10px;\n}\n\n::-webkit-scrollbar-track {\n\tbackground: #efefef;\n\tbackground: var(--background);\n\tborder-radius: 6px;\n}\n\n@media (prefers-color-scheme: dark) {\n\t::-webkit-scrollbar-track {\n\t\tbackground: #161f27;\n\t\tbackground: var(--background);\n\t}\n}\n\n::-webkit-scrollbar-thumb {\n\tbackground: rgb(170, 170, 170);\n\tbackground: var(--scrollbar-thumb);\n\tborder-radius: 6px;\n}\n\n@media (prefers-color-scheme: dark) {\n\t::-webkit-scrollbar-thumb {\n\t\tbackground: #040a0f;\n\t\tbackground: var(--scrollbar-thumb);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\t::-webkit-scrollbar-thumb {\n\t\tbackground: #040a0f;\n\t\tbackground: var(--scrollbar-thumb);\n\t}\n}\n\n::-webkit-scrollbar-thumb:hover {\n\tbackground: #9b9b9b;\n\tbackground: var(--scrollbar-thumb-hover);\n}\n\n@media (prefers-color-scheme: dark) {\n\t::-webkit-scrollbar-thumb:hover {\n\t\tbackground: rgb(0, 0, 0);\n\t\tbackground: var(--scrollbar-thumb-hover);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\t::-webkit-scrollbar-thumb:hover {\n\t\tbackground: rgb(0, 0, 0);\n\t\tbackground: var(--scrollbar-thumb-hover);\n\t}\n}\n\n::-moz-selection {\n\tbackground-color: #9e9e9e;\n\tbackground-color: var(--selection);\n\tcolor: #000;\n\tcolor: var(--text-bright);\n}\n\n::selection {\n\tbackground-color: #9e9e9e;\n\tbackground-color: var(--selection);\n\tcolor: #000;\n\tcolor: var(--text-bright);\n}\n\n@media (prefers-color-scheme: dark) {\n\t::-moz-selection {\n\t\tcolor: #fff;\n\t\tcolor: var(--text-bright);\n\t}\n\n\t::selection {\n\t\tcolor: #fff;\n\t\tcolor: var(--text-bright);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\t::-moz-selection {\n\t\tbackground-color: #1c76c5;\n\t\tbackground-color: var(--selection);\n\t}\n\n\t::selection {\n\t\tbackground-color: #1c76c5;\n\t\tbackground-color: var(--selection);\n\t}\n}\n\ndetails {\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: flex-start;\n\tbackground-color: #f7f7f7;\n\tbackground-color: var(--background-alt);\n\tpadding: 10px 10px 0;\n\tmargin: 1em 0;\n\tborder-radius: 6px;\n\toverflow: hidden;\n}\n\n@media (prefers-color-scheme: dark) {\n\tdetails {\n\t\tbackground-color: #1a242f;\n\t\tbackground-color: var(--background-alt);\n\t}\n}\n\ndetails[open] {\n\tpadding: 10px;\n}\n\ndetails > :last-child {\n\tmargin-bottom: 0;\n}\n\ndetails[open] summary {\n\tmargin-bottom: 10px;\n}\n\nsummary {\n\tdisplay: list-item;\n\tbackground-color: #efefef;\n\tbackground-color: var(--background);\n\tpadding: 10px;\n\tmargin: -10px -10px 0;\n\tcursor: pointer;\n\toutline: none;\n}\n\n@media (prefers-color-scheme: dark) {\n\tsummary {\n\t\tbackground-color: #161f27;\n\t\tbackground-color: var(--background);\n\t}\n}\n\nsummary:hover,\nsummary:focus {\n\ttext-decoration: underline;\n}\n\ndetails > :not(summary) {\n\tmargin-top: 0;\n}\n\nsummary::-webkit-details-marker {\n\tcolor: #363636;\n\tcolor: var(--text-main);\n}\n\n@media (prefers-color-scheme: dark) {\n\tsummary::-webkit-details-marker {\n\t\tcolor: #dbdbdb;\n\t\tcolor: var(--text-main);\n\t}\n}\n\ndialog {\n\tbackground-color: #f7f7f7;\n\tbackground-color: var(--background-alt);\n\tcolor: #363636;\n\tcolor: var(--text-main);\n\tborder: none;\n\tborder-radius: 6px;\n\tborder-color: #dbdbdb;\n\tborder-color: var(--border);\n\tpadding: 10px 30px;\n}\n\n@media (prefers-color-scheme: dark) {\n\tdialog {\n\t\tborder-color: #526980;\n\t\tborder-color: var(--border);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tdialog {\n\t\tcolor: #dbdbdb;\n\t\tcolor: var(--text-main);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tdialog {\n\t\tbackground-color: #1a242f;\n\t\tbackground-color: var(--background-alt);\n\t}\n}\n\ndialog > header:first-child {\n\tbackground-color: #efefef;\n\tbackground-color: var(--background);\n\tborder-radius: 6px 6px 0 0;\n\tmargin: -10px -30px 10px;\n\tpadding: 10px;\n\ttext-align: center;\n}\n\n@media (prefers-color-scheme: dark) {\n\tdialog > header:first-child {\n\t\tbackground-color: #161f27;\n\t\tbackground-color: var(--background);\n\t}\n}\n\ndialog::-webkit-backdrop {\n\tbackground: #0000009c;\n\t-webkit-backdrop-filter: blur(4px);\n\tbackdrop-filter: blur(4px);\n}\n\ndialog::backdrop {\n\tbackground: #0000009c;\n\t-webkit-backdrop-filter: blur(4px);\n\tbackdrop-filter: blur(4px);\n}\n\nfooter {\n\tborder-top: 1px solid #dbdbdb;\n\tborder-top: 1px solid var(--border);\n\tpadding-top: 10px;\n\tcolor: #70777f;\n\tcolor: var(--text-muted);\n}\n\n@media (prefers-color-scheme: dark) {\n\tfooter {\n\t\tcolor: #a9b1ba;\n\t\tcolor: var(--text-muted);\n\t}\n}\n\n@media (prefers-color-scheme: dark) {\n\tfooter {\n\t\tborder-top: 1px solid #526980;\n\t\tborder-top: 1px solid var(--border);\n\t}\n}\n\nbody > footer {\n\tmargin-top: 40px;\n}\n\n@media print {\n\tbody,\n\tpre,\n\tcode,\n\tsummary,\n\tdetails,\n\tbutton,\n\tinput,\n\ttextarea {\n\t\tbackground-color: #fff;\n\t}\n\n\tbutton,\n\tinput,\n\ttextarea {\n\t\tborder: 1px solid #000;\n\t}\n\n\tbody,\n\th1,\n\th2,\n\th3,\n\th4,\n\th5,\n\th6,\n\tpre,\n\tcode,\n\tbutton,\n\tinput,\n\ttextarea,\n\tfooter,\n\tsummary,\n\tstrong {\n\t\tcolor: #000;\n\t}\n\n\tsummary::marker {\n\t\tcolor: #000;\n\t}\n\n\tsummary::-webkit-details-marker {\n\t\tcolor: #000;\n\t}\n\n\ttbody tr:nth-child(even) {\n\t\tbackground-color: #f2f2f2;\n\t}\n\n\ta {\n\t\tcolor: #00f;\n\t\ttext-decoration: underline;\n\t}\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5284,6 +5318,42 @@ module.exports = function (cssWithMappingToString) {
     }
   };
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+  if (!url) {
+    return url;
+  }
+  url = String(url.__esModule ? url.default : url);
+
+  // If url is already wrapped in quotes, remove them
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+  if (options.hash) {
+    url += options.hash;
+  }
+
+  // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+  return url;
 };
 
 /***/ }),
@@ -40410,9 +40480,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_img_logo_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/img/logo.svg */ "./src/assets/img/logo.svg");
-/* harmony import */ var _containers_Greetings_Greetings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../containers/Greetings/Greetings */ "./src/containers/Greetings/Greetings.jsx");
-/* harmony import */ var _Popup_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Popup.css */ "./src/pages/Popup/Popup.css");
+/* harmony import */ var _containers_Greetings_Greetings__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../containers/Greetings/Greetings */ "./src/containers/Greetings/Greetings.jsx");
+/* harmony import */ var _Popup_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Popup.css */ "./src/pages/Popup/Popup.css");
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components */ "./src/pages/Popup/components/index.js");
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
 /* provided dependency */ var __react_refresh_error_overlay__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
@@ -40422,25 +40492,178 @@ __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/r
 
 
 const Popup = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "App"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
-    className: "App-header"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _assets_img_logo_svg__WEBPACK_IMPORTED_MODULE_1__,
-    className: "App-logo",
-    alt: "logo"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Edit ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("code", null, "src/pages/Popup/Popup.jsx"), " and save to reload."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    className: "App-link",
-    href: "https://reactjs.org",
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "Learn React!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Hello world"));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Navbar, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Hello world"));
 };
 _c = Popup;
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Popup);
 var _c;
 __webpack_require__.$Refresh$.register(_c, "Popup");
+
+const $ReactRefreshModuleId$ = __webpack_require__.$Refresh$.moduleId;
+const $ReactRefreshCurrentExports$ = __react_refresh_utils__.getModuleExports(
+	$ReactRefreshModuleId$
+);
+
+function $ReactRefreshModuleRuntime$(exports) {
+	if (true) {
+		let errorOverlay;
+		if (typeof __react_refresh_error_overlay__ !== 'undefined') {
+			errorOverlay = __react_refresh_error_overlay__;
+		}
+		let testMode;
+		if (typeof __react_refresh_test__ !== 'undefined') {
+			testMode = __react_refresh_test__;
+		}
+		return __react_refresh_utils__.executeRuntime(
+			exports,
+			$ReactRefreshModuleId$,
+			module.hot,
+			errorOverlay,
+			testMode
+		);
+	}
+}
+
+if (typeof Promise !== 'undefined' && $ReactRefreshCurrentExports$ instanceof Promise) {
+	$ReactRefreshCurrentExports$.then($ReactRefreshModuleRuntime$);
+} else {
+	$ReactRefreshModuleRuntime$($ReactRefreshCurrentExports$);
+}
+
+/***/ }),
+
+/***/ "./src/pages/Popup/components/Navbar/Navbar.jsx":
+/*!******************************************************!*\
+  !*** ./src/pages/Popup/components/Navbar/Navbar.jsx ***!
+  \******************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Navbar: () => (/* binding */ Navbar)
+/* harmony export */ });
+/* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navbar.css */ "./src/pages/Popup/components/Navbar/Navbar.css");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
+/* provided dependency */ var __react_refresh_error_overlay__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+
+
+
+function Navbar() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement((react__WEBPACK_IMPORTED_MODULE_1___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("nav", {
+    className: ""
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
+    className: ""
+  })));
+}
+_c = Navbar;
+var _c;
+__webpack_require__.$Refresh$.register(_c, "Navbar");
+
+const $ReactRefreshModuleId$ = __webpack_require__.$Refresh$.moduleId;
+const $ReactRefreshCurrentExports$ = __react_refresh_utils__.getModuleExports(
+	$ReactRefreshModuleId$
+);
+
+function $ReactRefreshModuleRuntime$(exports) {
+	if (true) {
+		let errorOverlay;
+		if (typeof __react_refresh_error_overlay__ !== 'undefined') {
+			errorOverlay = __react_refresh_error_overlay__;
+		}
+		let testMode;
+		if (typeof __react_refresh_test__ !== 'undefined') {
+			testMode = __react_refresh_test__;
+		}
+		return __react_refresh_utils__.executeRuntime(
+			exports,
+			$ReactRefreshModuleId$,
+			module.hot,
+			errorOverlay,
+			testMode
+		);
+	}
+}
+
+if (typeof Promise !== 'undefined' && $ReactRefreshCurrentExports$ instanceof Promise) {
+	$ReactRefreshCurrentExports$.then($ReactRefreshModuleRuntime$);
+} else {
+	$ReactRefreshModuleRuntime$($ReactRefreshCurrentExports$);
+}
+
+/***/ }),
+
+/***/ "./src/pages/Popup/components/Navbar/index.js":
+/*!****************************************************!*\
+  !*** ./src/pages/Popup/components/Navbar/index.js ***!
+  \****************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Navbar: () => (/* reexport safe */ _Navbar__WEBPACK_IMPORTED_MODULE_0__.Navbar)
+/* harmony export */ });
+/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navbar */ "./src/pages/Popup/components/Navbar/Navbar.jsx");
+/* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
+/* provided dependency */ var __react_refresh_error_overlay__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+
+
+
+const $ReactRefreshModuleId$ = __webpack_require__.$Refresh$.moduleId;
+const $ReactRefreshCurrentExports$ = __react_refresh_utils__.getModuleExports(
+	$ReactRefreshModuleId$
+);
+
+function $ReactRefreshModuleRuntime$(exports) {
+	if (true) {
+		let errorOverlay;
+		if (typeof __react_refresh_error_overlay__ !== 'undefined') {
+			errorOverlay = __react_refresh_error_overlay__;
+		}
+		let testMode;
+		if (typeof __react_refresh_test__ !== 'undefined') {
+			testMode = __react_refresh_test__;
+		}
+		return __react_refresh_utils__.executeRuntime(
+			exports,
+			$ReactRefreshModuleId$,
+			module.hot,
+			errorOverlay,
+			testMode
+		);
+	}
+}
+
+if (typeof Promise !== 'undefined' && $ReactRefreshCurrentExports$ instanceof Promise) {
+	$ReactRefreshCurrentExports$.then($ReactRefreshModuleRuntime$);
+} else {
+	$ReactRefreshModuleRuntime$($ReactRefreshCurrentExports$);
+}
+
+/***/ }),
+
+/***/ "./src/pages/Popup/components/index.js":
+/*!*********************************************!*\
+  !*** ./src/pages/Popup/components/index.js ***!
+  \*********************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Navbar: () => (/* reexport safe */ _Navbar__WEBPACK_IMPORTED_MODULE_0__.Navbar)
+/* harmony export */ });
+/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navbar */ "./src/pages/Popup/components/Navbar/index.js");
+/* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
+/* provided dependency */ var __react_refresh_error_overlay__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+
+
 
 const $ReactRefreshModuleId$ = __webpack_require__.$Refresh$.moduleId;
 const $ReactRefreshCurrentExports$ = __react_refresh_utils__.getModuleExports(
@@ -40794,6 +41017,119 @@ if (true) {
 
 
        /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Popup_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Popup_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Popup_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
+/***/ "./src/pages/Popup/components/Navbar/Navbar.css":
+/*!******************************************************!*\
+  !*** ./src/pages/Popup/components/Navbar/Navbar.css ***!
+  \******************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./Navbar.css */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./src/pages/Popup/components/Navbar/Navbar.css");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+if (true) {
+  if (!_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === "default") {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === "default") {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var isNamedExport = !_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals;
+    var oldLocals = isNamedExport ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__ : _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals;
+
+    module.hot.accept(
+      /*! !!../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./Navbar.css */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./src/pages/Popup/components/Navbar/Navbar.css",
+      __WEBPACK_OUTDATED_DEPENDENCIES__ => { /* harmony import */ _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./Navbar.css */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./src/pages/Popup/components/Navbar/Navbar.css");
+(function () {
+        if (!isEqualLocals(oldLocals, isNamedExport ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__ : _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals, isNamedExport)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = isNamedExport ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__ : _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals;
+
+              update(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__["default"]);
+      })(__WEBPACK_OUTDATED_DEPENDENCIES__); }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_0_use_2_Navbar_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -42858,22 +43194,22 @@ exports.hooks = {
 /******/ 	}();
 /******/ 	
 /************************************************************************/
-var __webpack_exports__ = {};
+var __nested_webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 !function() {
 /*!********************************************!*\
   !*** ./client-src/modules/logger/index.js ***!
   \********************************************/
-__nested_webpack_require_23009__.r(__webpack_exports__);
-/* harmony export */ __nested_webpack_require_23009__.d(__webpack_exports__, {
+__nested_webpack_require_23009__.r(__nested_webpack_exports__);
+/* harmony export */ __nested_webpack_require_23009__.d(__nested_webpack_exports__, {
 /* harmony export */   "default": function() { return /* reexport default export from named module */ webpack_lib_logging_runtime_js__WEBPACK_IMPORTED_MODULE_0__; }
 /* harmony export */ });
 /* harmony import */ var webpack_lib_logging_runtime_js__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_23009__(/*! webpack/lib/logging/runtime.js */ "./node_modules/webpack/lib/logging/runtime.js");
 
 }();
 var __webpack_export_target__ = exports;
-for(var i in __webpack_exports__) __webpack_export_target__[i] = __webpack_exports__[i];
-if(__webpack_exports__.__esModule) Object.defineProperty(__webpack_export_target__, "__esModule", { value: true });
+for(var i in __nested_webpack_exports__) __webpack_export_target__[i] = __nested_webpack_exports__[i];
+if(__nested_webpack_exports__.__esModule) Object.defineProperty(__webpack_export_target__, "__esModule", { value: true });
 /******/ })()
 ;
 
@@ -48549,15 +48885,15 @@ module.exports = Url;
 /******/ 	}();
 /******/ 	
 /************************************************************************/
-var __webpack_exports__ = {};
+var __nested_webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 !function() {
 "use strict";
 /*!***************************************************!*\
   !*** ./client-src/modules/sockjs-client/index.js ***!
   \***************************************************/
-__nested_webpack_require_170156__.r(__webpack_exports__);
-/* harmony export */ __nested_webpack_require_170156__.d(__webpack_exports__, {
+__nested_webpack_require_170156__.r(__nested_webpack_exports__);
+/* harmony export */ __nested_webpack_require_170156__.d(__nested_webpack_exports__, {
 /* harmony export */   "default": function() { return /* reexport default from dynamic */ sockjs_client__WEBPACK_IMPORTED_MODULE_0___default.a; }
 /* harmony export */ });
 /* harmony import */ var sockjs_client__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_170156__(/*! sockjs-client */ "./node_modules/sockjs-client/lib/entry.js");
@@ -48565,7 +48901,7 @@ __nested_webpack_require_170156__.r(__webpack_exports__);
 // eslint-disable-next-line import/no-extraneous-dependencies
 
 }();
-/******/ 	return __webpack_exports__;
+/******/ 	return __nested_webpack_exports__;
 /******/ })()
 ;
 });
@@ -48581,9 +48917,9 @@ __nested_webpack_require_170156__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "formatProblem": () => (/* binding */ formatProblem),
-/* harmony export */   "hide": () => (/* binding */ hide),
-/* harmony export */   "show": () => (/* binding */ show)
+/* harmony export */   formatProblem: () => (/* binding */ formatProblem),
+/* harmony export */   hide: () => (/* binding */ hide),
+/* harmony export */   show: () => (/* binding */ show)
 /* harmony export */ });
 /* harmony import */ var ansi_html_community__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ansi-html-community */ "./node_modules/ansi-html-community/index.js");
 /* harmony import */ var ansi_html_community__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(ansi_html_community__WEBPACK_IMPORTED_MODULE_0__);
@@ -48815,7 +49151,7 @@ function show(type, messages, trustedTypesPolicyName) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "client": () => (/* binding */ client),
+/* harmony export */   client: () => (/* binding */ client),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _clients_WebSocketClient_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./clients/WebSocketClient.js */ "./node_modules/webpack-dev-server/client/clients/WebSocketClient.js");
@@ -49089,9 +49425,9 @@ function getCurrentScriptSource() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "log": () => (/* binding */ log),
-/* harmony export */   "logEnabledFeatures": () => (/* binding */ logEnabledFeatures),
-/* harmony export */   "setLogLevel": () => (/* binding */ setLogLevel)
+/* harmony export */   log: () => (/* binding */ log),
+/* harmony export */   logEnabledFeatures: () => (/* binding */ logEnabledFeatures),
+/* harmony export */   setLogLevel: () => (/* binding */ setLogLevel)
 /* harmony export */ });
 /* harmony import */ var _modules_logger_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/logger/index.js */ "./node_modules/webpack-dev-server/client/modules/logger/index.js");
 /* harmony import */ var _modules_logger_index_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_logger_index_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -49360,9 +49696,10 @@ function stripAnsi(string) {
 */
 /* globals __webpack_hash__ */
 if (true) {
+	/** @type {undefined|string} */
 	var lastHash;
 	var upToDate = function upToDate() {
-		return lastHash.indexOf(__webpack_require__.h()) >= 0;
+		return /** @type {string} */ (lastHash).indexOf(__webpack_require__.h()) >= 0;
 	};
 	var log = __webpack_require__(/*! ./log */ "./node_modules/webpack/hot/log.js");
 	var check = function check() {
@@ -49452,6 +49789,11 @@ module.exports = new EventEmitter();
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
 */
+
+/**
+ * @param {(string | number)[]} updatedModules updated modules
+ * @param {(string | number)[] | null} renewedModules renewed modules
+ */
 module.exports = function (updatedModules, renewedModules) {
 	var unacceptedModules = updatedModules.filter(function (moduleId) {
 		return renewedModules && renewedModules.indexOf(moduleId) < 0;
@@ -49502,10 +49844,17 @@ module.exports = function (updatedModules, renewedModules) {
   \*****************************************/
 /***/ ((module) => {
 
+/** @typedef {"info" | "warning" | "error"} LogLevel */
+
+/** @type {LogLevel} */
 var logLevel = "info";
 
 function dummy() {}
 
+/**
+ * @param {LogLevel} level log level
+ * @returns {boolean} true, if should log
+ */
 function shouldLog(level) {
 	var shouldLog =
 		(logLevel === "info" && level === "info") ||
@@ -49514,6 +49863,10 @@ function shouldLog(level) {
 	return shouldLog;
 }
 
+/**
+ * @param {(msg?: string) => void} logFn log function
+ * @returns {(level: LogLevel, msg?: string) => void} function that logs when log level is sufficient
+ */
 function logGroup(logFn) {
 	return function (level, msg) {
 		if (shouldLog(level)) {
@@ -49522,6 +49875,10 @@ function logGroup(logFn) {
 	};
 }
 
+/**
+ * @param {LogLevel} level log level
+ * @param {string|Error} msg message
+ */
 module.exports = function (level, msg) {
 	if (shouldLog(level)) {
 		if (level === "info") {
@@ -49534,11 +49891,9 @@ module.exports = function (level, msg) {
 	}
 };
 
-/* eslint-disable node/no-unsupported-features/node-builtins */
 var group = console.group || dummy;
 var groupCollapsed = console.groupCollapsed || dummy;
 var groupEnd = console.groupEnd || dummy;
-/* eslint-enable node/no-unsupported-features/node-builtins */
 
 module.exports.group = logGroup(group);
 
@@ -49546,10 +49901,17 @@ module.exports.groupCollapsed = logGroup(groupCollapsed);
 
 module.exports.groupEnd = logGroup(groupEnd);
 
+/**
+ * @param {LogLevel} level log level
+ */
 module.exports.setLogLevel = function (level) {
 	logLevel = level;
 };
 
+/**
+ * @param {Error} err error
+ * @returns {string} formatted error
+ */
 module.exports.formatError = function (err) {
 	var message = err.message;
 	var stack = err.stack;
@@ -49565,6 +49927,28 @@ module.exports.formatError = function (err) {
 
 /***/ }),
 
+/***/ "data:image/svg+xml;charset=utf-8,%3C?xml version=%271.0%27 encoding=%27utf-8%27?%3E %3Csvg version=%271.1%27 xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27 height=%2762.5%27 width=%27116.9%27 fill=%27%23161f27%27%3E %3Cpath d=%27M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z%27/%3E %3C/svg%3E":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** data:image/svg+xml;charset=utf-8,%3C?xml version=%271.0%27 encoding=%27utf-8%27?%3E %3Csvg version=%271.1%27 xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27 height=%2762.5%27 width=%27116.9%27 fill=%27%23161f27%27%3E %3Cpath d=%27M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z%27/%3E %3C/svg%3E ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = "data:image/svg+xml;charset=utf-8,%3C?xml version=%271.0%27 encoding=%27utf-8%27?%3E %3Csvg version=%271.1%27 xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27 height=%2762.5%27 width=%27116.9%27 fill=%27%23161f27%27%3E %3Cpath d=%27M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z%27/%3E %3C/svg%3E";
+
+/***/ }),
+
+/***/ "data:image/svg+xml;charset=utf-8,%3C?xml version=%271.0%27 encoding=%27utf-8%27?%3E %3Csvg version=%271.1%27 xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27 height=%2762.5%27 width=%27116.9%27 fill=%27%23efefef%27%3E %3Cpath d=%27M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z%27/%3E %3C/svg%3E":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** data:image/svg+xml;charset=utf-8,%3C?xml version=%271.0%27 encoding=%27utf-8%27?%3E %3Csvg version=%271.1%27 xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27 height=%2762.5%27 width=%27116.9%27 fill=%27%23efefef%27%3E %3Cpath d=%27M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z%27/%3E %3C/svg%3E ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = "data:image/svg+xml;charset=utf-8,%3C?xml version=%271.0%27 encoding=%27utf-8%27?%3E %3Csvg version=%271.1%27 xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27 height=%2762.5%27 width=%27116.9%27 fill=%27%23efefef%27%3E %3Cpath d=%27M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z%27/%3E %3C/svg%3E";
+
+/***/ }),
+
 /***/ "./src/assets/img/icon-128.png":
 /*!*************************************!*\
   !*** ./src/assets/img/icon-128.png ***!
@@ -49573,17 +49957,6 @@ module.exports.formatError = function (err) {
 
 "use strict";
 module.exports = __webpack_require__.p + "71c201c734eb9e043686.png";
-
-/***/ }),
-
-/***/ "./src/assets/img/logo.svg":
-/*!*********************************!*\
-  !*** ./src/assets/img/logo.svg ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "103b5fa18196d5665a7e.svg";
 
 /***/ }),
 
@@ -51330,7 +51703,6 @@ module.exports = getWDSMetadata;
 /******/ 		// Check if module is in cache
 /******/ 		var cachedModule = __webpack_module_cache__[moduleId];
 /******/ 		if (cachedModule !== undefined) {
-/******/ 			if (cachedModule.error !== undefined) throw cachedModule.error;
 /******/ 			return cachedModule.exports;
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
@@ -51341,15 +51713,10 @@ module.exports = getWDSMetadata;
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		try {
-/******/ 			var execOptions = { id: moduleId, module: module, factory: __webpack_modules__[moduleId], require: __webpack_require__ };
-/******/ 			__webpack_require__.i.forEach(function(handler) { handler(execOptions); });
-/******/ 			module = execOptions.module;
-/******/ 			execOptions.factory.call(module.exports, module, module.exports, execOptions.require);
-/******/ 		} catch(e) {
-/******/ 			module.error = e;
-/******/ 			throw e;
-/******/ 		}
+/******/ 		var execOptions = { id: moduleId, module: module, factory: __webpack_modules__[moduleId], require: __webpack_require__ };
+/******/ 		__webpack_require__.i.forEach(function(handler) { handler(execOptions); });
+/******/ 		module = execOptions.module;
+/******/ 		execOptions.factory.call(module.exports, module, module.exports, execOptions.require);
 /******/ 	
 /******/ 		// Flag the module as loaded
 /******/ 		module.loaded = true;
@@ -51408,7 +51775,7 @@ module.exports = getWDSMetadata;
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("f630183a75e536714b14")
+/******/ 		__webpack_require__.h = () => ("e660c3becb4460d395ff")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -51453,6 +51820,7 @@ module.exports = getWDSMetadata;
 /******/ 					script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 				}
 /******/ 				script.setAttribute("data-webpack", dataWebpackPrefix + key);
+/******/ 		
 /******/ 				script.src = url;
 /******/ 			}
 /******/ 			inProgress[url] = [done];
@@ -51465,7 +51833,7 @@ module.exports = getWDSMetadata;
 /******/ 				script.parentNode && script.parentNode.removeChild(script);
 /******/ 				doneFns && doneFns.forEach((fn) => (fn(event)));
 /******/ 				if(prev) return prev(event);
-/******/ 			};
+/******/ 			}
 /******/ 			var timeout = setTimeout(onScriptComplete.bind(null, undefined, { type: 'timeout', target: script }), 120000);
 /******/ 			script.onerror = onScriptComplete.bind(null, script.onerror);
 /******/ 			script.onload = onScriptComplete.bind(null, script.onload);
@@ -51514,7 +51882,6 @@ module.exports = getWDSMetadata;
 /******/ 		var currentUpdateApplyHandlers;
 /******/ 		var queuedInvalidatedModules;
 /******/ 		
-/******/ 		// eslint-disable-next-line no-unused-vars
 /******/ 		__webpack_require__.hmrD = currentModuleData;
 /******/ 		
 /******/ 		__webpack_require__.i.push(function (options) {
@@ -51575,8 +51942,8 @@ module.exports = getWDSMetadata;
 /******/ 					Object.defineProperty(fn, name, createPropertyDescriptor(name));
 /******/ 				}
 /******/ 			}
-/******/ 			fn.e = function (chunkId) {
-/******/ 				return trackBlockingPromise(require.e(chunkId));
+/******/ 			fn.e = function (chunkId, fetchPriority) {
+/******/ 				return trackBlockingPromise(require.e(chunkId, fetchPriority));
 /******/ 			};
 /******/ 			return fn;
 /******/ 		}
@@ -51695,7 +52062,7 @@ module.exports = getWDSMetadata;
 /******/ 			for (var i = 0; i < registeredStatusHandlers.length; i++)
 /******/ 				results[i] = registeredStatusHandlers[i].call(null, newStatus);
 /******/ 		
-/******/ 			return Promise.all(results);
+/******/ 			return Promise.all(results).then(function () {});
 /******/ 		}
 /******/ 		
 /******/ 		function unblock() {
@@ -51768,8 +52135,7 @@ module.exports = getWDSMetadata;
 /******/ 									updatedModules
 /******/ 								);
 /******/ 								return promises;
-/******/ 							},
-/******/ 							[])
+/******/ 							}, [])
 /******/ 						).then(function () {
 /******/ 							return waitForBlockingPromises(function () {
 /******/ 								if (applyOnUpdate) {
@@ -51955,7 +52321,7 @@ module.exports = getWDSMetadata;
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	(() => {
-/******/ 		// no baseURI
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
 /******/ 		
 /******/ 		// object to store loaded and loading chunks
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
