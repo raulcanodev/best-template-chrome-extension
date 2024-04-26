@@ -1,14 +1,31 @@
 import React from "react";
-import Greetings from "../../containers/Greetings/Greetings";
-import "./Popup.css";
-
-import { Navbar } from "./components";
+// import Greetings from "../../containers/Greetings/Greetings";
+import { useState } from "react";
+import { Navbar, Categories, AllNotesByCategory } from "./components";
 
 const Popup = () => {
+	const [selectedCategory, setSelectedCategory] = useState("");
+	const handleCategoryClick = (category) => {
+		setSelectedCategory(category);
+		console.log("Click on category: ", selectedCategory);
+	};
+
+	const handleBackClick = () => {
+		setSelectedCategory("");
+	};
+
 	return (
 		<>
 			<Navbar />
-			<h2>Hello world</h2>
+			{!selectedCategory && (
+				<Categories onCategoryClick={handleCategoryClick} />
+			)}
+			{selectedCategory && (
+				<AllNotesByCategory
+					goBackClick={handleBackClick}
+					category={selectedCategory}
+				/>
+			)}
 		</>
 	);
 };

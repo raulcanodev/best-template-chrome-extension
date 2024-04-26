@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.nav__content {
+	display: flex;
+	margin-top: 0px !important;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	height: 50px;
+	align-items: center !important;
+	background-color: #4518ad;
+	border-bottom: 1px solid #e9ecef;
+}
+
+.content__title {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+h2 {
+	font-family: "Lobster Two", cursive;
+	font-size: 1.4rem;
+	margin: 0 !important;
+	padding: 0 !important;
+}

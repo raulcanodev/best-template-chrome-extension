@@ -1,0 +1,13 @@
+.table__header {
+	display: flex;
+	justify-content: space-between !important;
+	align-items: center;
+	padding: 0 5px;
+	align-items: center !important;
+	margin-top: 0px !important;
+	/* margin-bottom: 10px; */
+}
+
+.table__header div .ui.button {
+	margin-top: 6px !important;
+}

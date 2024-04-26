@@ -3,6 +3,7 @@
  * Uses light theme by default but switches to dark theme
  * if a system-wide theme preference is set on the user's device.
  */
+@import "~@fortawesome/fontawesome-free/css/all.css";
 
 :root {
 	--background-body: #fff;
@@ -108,11 +109,14 @@ body {
 		"Helvetica Neue", "Segoe UI Emoji", "Apple Color Emoji",
 		"Noto Color Emoji", sans-serif;
 	line-height: 1.4;
-	width: 300px;
+	width: 400px;
 	height: 300px;
 	max-width: 800px;
-	margin: 20px auto;
-	padding: 0 10px;
+	font-size: 15px;
+
+	margin: 0 !important;
+	padding: 0 !important;
+
 	word-wrap: break-word;
 	color: #363636;
 	color: var(--text-main);

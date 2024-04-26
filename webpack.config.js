@@ -38,9 +38,18 @@ const isDevelopment = process.env.NODE_ENV !== "production";
 var options = {
 	mode: process.env.NODE_ENV || "development",
 	entry: {
-		newtab: path.join(__dirname, "src", "pages", "Newtab", "index.jsx"),
-		options: path.join(__dirname, "src", "pages", "Options", "index.jsx"),
-		popup: path.join(__dirname, "src", "pages", "Popup", "index.jsx"),
+		newtab: [
+			path.join(__dirname, "src", "pages", "Newtab", "index.jsx"),
+			path.join(__dirname, "src", "styles.css"), // Agrega tu archivo CSS aquí
+		],
+		options: [
+			path.join(__dirname, "src", "pages", "Options", "index.jsx"),
+			path.join(__dirname, "src", "styles.css"), // Agrega tu archivo CSS aquí
+		],
+		popup: [
+			path.join(__dirname, "src", "pages", "Popup", "index.jsx"),
+			path.join(__dirname, "src", "styles.css"), // Agrega tu archivo CSS aquí
+		],
 		background: path.join(
 			__dirname,
 			"src",
