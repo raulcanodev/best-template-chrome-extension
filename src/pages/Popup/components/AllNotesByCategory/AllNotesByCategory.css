@@ -8,6 +8,15 @@
 	/* margin-bottom: 10px; */
 }
 
-.table__header div .ui.button {
+.table__header .ui.button {
 	margin-top: 6px !important;
+}
+
+.map__templates {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5px;
+	align-items: center !important;
+	margin-top: 0px !important;
 }

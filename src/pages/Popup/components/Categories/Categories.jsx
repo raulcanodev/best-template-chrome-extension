@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashCan } from "@fortawesome/free-solid-svg-icons";
 
 export function Categories({ onCategoryClick }) {
-	const [categories, setCategories] = useState([]);
+	const [categories, setCategories] = useState({});
 	const [showAddCategory, setShowAddCategory] = useState(false);
 	const [newCategory, setNewCategory] = useState("");
 
@@ -15,8 +15,10 @@ export function Categories({ onCategoryClick }) {
 		setShowAddCategory(!showAddCategory);
 	};
 
-	const AddCategoryToLocalStorage = () => {
-		const newCategories = [...categories, newCategory];
+	const addCategoryToLocalStorage = () => {
+		if (newCategory === "") return;
+		if (newCategory in categories) return;
+		const newCategories = { ...categories, [newCategory]: [] };
 		localStorage.setItem("categories", JSON.stringify(newCategories));
 		setCategories(newCategories);
 		setNewCategory("");
@@ -25,7 +27,7 @@ export function Categories({ onCategoryClick }) {
 
 	useEffect(() => {
 		const savedCategories =
-			JSON.parse(localStorage.getItem("categories")) || [];
+			JSON.parse(localStorage.getItem("categories")) || {};
 		setCategories(savedCategories);
 	}, []);
 
@@ -37,7 +39,9 @@ export function Categories({ onCategoryClick }) {
 						<Table.HeaderCell>
 							{categories.length === 0
 								? "Empty"
-								: `Categories ${categories.length}/7`}
+								: `Categories ${
+										Object.keys(categories).length
+								  }/7`}
 						</Table.HeaderCell>
 						<Button onClick={() => openCloseShowAddCategory()}>
 							{showAddCategory ? "Close" : "Add Category"}
@@ -45,26 +49,30 @@ export function Categories({ onCategoryClick }) {
 					</Table.Row>
 				</Table.Header>
 				<Table.Body>
+					{/* Map Categories */}
 					{!showAddCategory &&
-						categories.map((category, index) => (
+						Object.keys(categories).map((category, index) => (
 							<Table.Row
 								key={index}
 								onClick={() => onCategoryClick(category)}
 								className="map__categories">
 								<Table.Cell>{category}</Table.Cell>
+
+								{/* Delete Category */}
 								<Table.Cell>
-									{/* Delete Category */}
 									<FontAwesomeIcon
 										onClick={() => {
-											const newCategories =
-												categories.filter(
-													(cat) => cat !== category
-												);
+											const {
+												[category]: deletedCategory,
+												...remainingCategories
+											} = categories;
 											localStorage.setItem(
 												"categories",
-												JSON.stringify(newCategories)
+												JSON.stringify(
+													remainingCategories
+												)
 											);
-											setCategories(newCategories);
+											setCategories(remainingCategories);
 										}}
 										icon={faTrashCan}
 									/>
@@ -72,10 +80,10 @@ export function Categories({ onCategoryClick }) {
 							</Table.Row>
 						))}
 
-					{categories.length >= 7 && showAddCategory && (
+					{Object.keys(categories).length >= 7 && showAddCategory && (
 						<h3>You can't have more than 7 categories</h3>
 					)}
-					{categories.length < 7 && showAddCategory && (
+					{Object.keys(categories).length < 7 && showAddCategory && (
 						<Table.Row>
 							<Table.Cell className="table__form">
 								<Form.Input
@@ -84,11 +92,12 @@ export function Categories({ onCategoryClick }) {
 									onChange={(e) =>
 										setNewCategory(e.target.value)
 									}
+									maxLength={24}
 								/>
 								<Button
 									type="submit"
 									onClick={() => {
-										AddCategoryToLocalStorage();
+										addCategoryToLocalStorage();
 									}}>
 									Add
 								</Button>
