@@ -2,6 +2,7 @@ import React from "react";
 import "./FormAddNewTemplate.css";
 import { useState } from "react";
 import { Button, Form, TextArea } from "semantic-ui-react";
+import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 export function FormAddNewTemplate({ category }) {
 	const [title, setTitle] = useState("");
@@ -30,7 +31,7 @@ export function FormAddNewTemplate({ category }) {
 
 	return (
 		<>
-			<div>
+			<div className="form__template">
 				<Form.Input
 					value={title}
 					onChange={(e) => {
@@ -42,12 +43,12 @@ export function FormAddNewTemplate({ category }) {
 					onChange={(e) => {
 						setContent(e.target.value);
 					}}
-					maxLength={200}
+					maxLength={550}
+					rows={6}
 					placeholder="Content"></TextArea>
-			</div>
-			<div>
 				<Button onClick={() => handleSave()}>Save</Button>
 			</div>
+			<div></div>
 		</>
 	);
 }

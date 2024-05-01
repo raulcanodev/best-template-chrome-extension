@@ -4,7 +4,11 @@ import { useState, useEffect } from "react";
 
 import { Table, Button, Form, Message } from "semantic-ui-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrashCan } from "@fortawesome/free-solid-svg-icons";
+import {
+	faTrashCan,
+	faPlus,
+	faAngleLeft,
+} from "@fortawesome/free-solid-svg-icons";
 
 export function Categories({ onCategoryClick }) {
 	const [categories, setCategories] = useState({});
@@ -44,7 +48,11 @@ export function Categories({ onCategoryClick }) {
 								  }/7`}
 						</Table.HeaderCell>
 						<Button onClick={() => openCloseShowAddCategory()}>
-							{showAddCategory ? "Close" : "Add Category"}
+							{showAddCategory ? (
+								<FontAwesomeIcon icon={faAngleLeft} />
+							) : (
+								<FontAwesomeIcon icon={faPlus} />
+							)}
 						</Button>
 					</Table.Row>
 				</Table.Header>

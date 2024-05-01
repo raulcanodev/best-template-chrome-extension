@@ -2,7 +2,7 @@
 	width: 600px !important;
 	display: flex;
 	flex-direction: row;
-	gap: 10px;
+	/* gap: 10px; */
 }
 
 .table__table {
@@ -26,7 +26,6 @@
 	align-items: center;
 	align-items: center !important;
 	margin-top: 0px !important;
-	/* margin-bottom: 10px; */
 }
 
 .table__header .ui.button {
