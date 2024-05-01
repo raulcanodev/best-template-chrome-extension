@@ -59,6 +59,8 @@ html {
 	scrollbar-color: rgb(170, 170, 170) #fff;
 	scrollbar-color: var(--scrollbar-thumb) var(--background-body);
 	scrollbar-width: thin;
+	height: 300px !important;
+	max-height: 400px !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -108,11 +110,11 @@ body {
 		"Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
 		"Helvetica Neue", "Segoe UI Emoji", "Apple Color Emoji",
 		"Noto Color Emoji", sans-serif;
+	font-size: 17px;
 	line-height: 1.4;
-	width: 400px;
-	height: 300px;
+	min-width: 320px;
 	max-width: 800px;
-	font-size: 15px;
+	height: 100px;
 
 	margin: 0 !important;
 	padding: 0 !important;

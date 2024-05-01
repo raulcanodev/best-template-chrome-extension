@@ -16,16 +16,18 @@ const Popup = () => {
 
 	return (
 		<>
-			<Navbar />
-			{!selectedCategory && (
-				<Categories onCategoryClick={handleCategoryClick} />
-			)}
-			{selectedCategory && (
-				<AllNotesByCategory
-					goBackClick={handleBackClick}
-					category={selectedCategory}
-				/>
-			)}
+			<div className="main__content">
+				<Navbar />
+				{!selectedCategory && (
+					<Categories onCategoryClick={handleCategoryClick} />
+				)}
+				{selectedCategory && (
+					<AllNotesByCategory
+						goBackClick={handleBackClick}
+						category={selectedCategory}
+					/>
+				)}
+			</div>
 		</>
 	);
 };

@@ -1,8 +1,29 @@
+.table__content {
+	width: 600px !important;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.table__table {
+	/* Make able to scroll throw the notes */
+	max-height: 300px !important;
+	overflow-y: auto;
+	scroll-behavior: smooth;
+	width: 300px;
+}
+
+.table__preview {
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .table__header {
 	display: flex;
 	justify-content: space-between !important;
 	align-items: center;
-	padding: 0 5px;
 	align-items: center !important;
 	margin-top: 0px !important;
 	/* margin-bottom: 10px; */
@@ -19,4 +40,16 @@
 	padding: 0 5px;
 	align-items: center !important;
 	margin-top: 0px !important;
+	cursor: pointer;
+}
+
+.table__footer {
+	dflex: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	/* margin-top: 0px !important; */
+	border: 1px solid red;
+	border-radius: 5px;
+	margin: 10px;
 }
