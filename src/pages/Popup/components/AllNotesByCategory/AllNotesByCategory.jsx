@@ -6,6 +6,8 @@ import { FormAddNewTemplate, PreviewNote } from "../../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faOtter } from "@fortawesome/free-solid-svg-icons";
 
+// Test
+
 export function AllNotesByCategory({ category, goBackClick }) {
 	const [templates, setTemplates] = useState([]);
 	const [showAddTemplate, setShowAddTemplate] = useState(false);
