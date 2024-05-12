@@ -8,12 +8,14 @@ import {
 	faTrashCan,
 	faPlus,
 	faAngleLeft,
+	faX,
 } from "@fortawesome/free-solid-svg-icons";
 
 export function Categories({ onCategoryClick }) {
 	const [categories, setCategories] = useState({});
 	const [showAddCategory, setShowAddCategory] = useState(false);
 	const [newCategory, setNewCategory] = useState("");
+	const [onDeleteCategory, setOnDeleteCategory] = useState(false);
 
 	const openCloseShowAddCategory = () => {
 		setShowAddCategory(!showAddCategory);
@@ -47,43 +49,60 @@ export function Categories({ onCategoryClick }) {
 										Object.keys(categories).length
 								  }/7`}
 						</Table.HeaderCell>
-						<Button onClick={() => openCloseShowAddCategory()}>
-							{showAddCategory ? (
-								<FontAwesomeIcon icon={faAngleLeft} />
-							) : (
-								<FontAwesomeIcon icon={faPlus} />
+						<div>
+							<Button onClick={() => openCloseShowAddCategory()}>
+								{showAddCategory ? (
+									<FontAwesomeIcon icon={faAngleLeft} />
+								) : (
+									<FontAwesomeIcon icon={faPlus} />
+								)}
+							</Button>
+
+							{!showAddCategory && (
+								<Button
+									onClick={() => {
+										setOnDeleteCategory(!onDeleteCategory);
+									}}>
+									<FontAwesomeIcon icon={faTrashCan} />
+								</Button>
 							)}
-						</Button>
+						</div>
 					</Table.Row>
 				</Table.Header>
 				<Table.Body>
 					{/* Map Categories */}
 					{!showAddCategory &&
 						Object.keys(categories).map((category, index) => (
-							<Table.Row
-								key={index}
-								onClick={() => onCategoryClick(category)}
-								className="map__categories">
-								<Table.Cell>{category}</Table.Cell>
+							<Table.Row key={index} className="map__categories">
+								<Table.Cell
+									onClick={() => onCategoryClick(category)}>
+									{category}
+								</Table.Cell>
 
 								{/* Delete Category */}
 								<Table.Cell>
-									<FontAwesomeIcon
-										onClick={() => {
-											const {
-												[category]: deletedCategory,
-												...remainingCategories
-											} = categories;
-											localStorage.setItem(
-												"categories",
-												JSON.stringify(
+									{onDeleteCategory && (
+										<FontAwesomeIcon
+											onClick={() => {
+												const {
+													[category]: deletedCategory,
+													...remainingCategories
+												} = categories;
+												localStorage.setItem(
+													"categories",
+													JSON.stringify(
+														remainingCategories
+													)
+												);
+												setCategories(
 													remainingCategories
-												)
-											);
-											setCategories(remainingCategories);
-										}}
-										icon={faTrashCan}
-									/>
+												);
+											}}
+											icon={faX}
+											color="red"
+											size="sm"
+										/>
+									)}
 								</Table.Cell>
 							</Table.Row>
 						))}
@@ -103,6 +122,7 @@ export function Categories({ onCategoryClick }) {
 									maxLength={24}
 								/>
 								<Button
+									className="button__add-category"
 									type="submit"
 									onClick={() => {
 										addCategoryToLocalStorage();

@@ -4,12 +4,11 @@ import { useState } from "react";
 import { Button, Form, TextArea } from "semantic-ui-react";
 import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
-export function FormAddNewTemplate({ category }) {
+export function FormAddNewTemplate({ category, onClose }) {
 	const [title, setTitle] = useState("");
 	const [content, setContent] = useState("");
 
 	const addTemplateToCategory = () => {
-		console.log("Add template to category", title, content);
 		const newTemplate = { title, content };
 		const savedCategories =
 			JSON.parse(localStorage.getItem("categories")) || {};
@@ -27,6 +26,7 @@ export function FormAddNewTemplate({ category }) {
 		console.log("Save template", title);
 		console.log("Content", content);
 		addTemplateToCategory();
+		onClose();
 	};
 
 	return (
@@ -34,10 +34,12 @@ export function FormAddNewTemplate({ category }) {
 			<div className="form__template">
 				<Form.Input
 					value={title}
+					maxLength={21}
 					onChange={(e) => {
 						setTitle(e.target.value);
 					}}
-					placeholder="Title"></Form.Input>
+					placeholder="Title"
+				/>
 				<TextArea
 					value={content}
 					onChange={(e) => {
@@ -46,9 +48,16 @@ export function FormAddNewTemplate({ category }) {
 					maxLength={550}
 					rows={6}
 					placeholder="Content"></TextArea>
-				<Button onClick={() => handleSave()}>Save</Button>
+				<div className="template__characters-count">
+					<Button onClick={() => handleSave()}>Save</Button>
+					<span
+						style={{
+							opacity: `${content.length >= 550 ? 1 : 0.5}`,
+						}}>
+						{content.length}/550
+					</span>
+				</div>
 			</div>
-			<div></div>
 		</>
 	);
 }

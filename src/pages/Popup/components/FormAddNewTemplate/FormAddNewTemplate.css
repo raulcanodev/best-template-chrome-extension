@@ -6,10 +6,17 @@
 }
 
 .form__template .ui.input {
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 }
 
 .form__template .ui.button {
 	margin-top: 10px !important;
-	width: 47%;
+	width: 20%;
+}
+
+.template__characters-count {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
 }

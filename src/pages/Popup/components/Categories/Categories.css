@@ -44,3 +44,8 @@
 	align-items: center !important;
 	margin-top: 0px !important;
 }
+
+.button__add-category {
+	/* display: flex; */
+	/* width: 100%; */
+}

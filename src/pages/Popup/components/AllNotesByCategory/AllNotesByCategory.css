@@ -15,6 +15,7 @@
 
 .table__preview {
 	width: 300px;
+	min-height: 300px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

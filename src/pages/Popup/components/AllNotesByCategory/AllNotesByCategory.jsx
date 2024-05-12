@@ -4,7 +4,11 @@ import { useState, useEffect } from "react";
 import { Button, Table, Form } from "semantic-ui-react";
 import { FormAddNewTemplate, PreviewNote } from "../../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleLeft, faOtter } from "@fortawesome/free-solid-svg-icons";
+import {
+	faAngleLeft,
+	faOtter,
+	faPlus,
+} from "@fortawesome/free-solid-svg-icons";
 
 // Test
 
@@ -13,7 +17,7 @@ export function AllNotesByCategory({ category, goBackClick }) {
 	const [showAddTemplate, setShowAddTemplate] = useState(false);
 	const [title, setTitle] = useState("");
 	const [content, setContent] = useState("");
-	const [clickedNote, setClickedNote] = useState("");
+	const [clickedNote, setClickedNote] = useState(null);
 	const [copyAdded, setCopyAdded] = useState("");
 
 	const openCloseShowTemplate = () => {
@@ -21,7 +25,6 @@ export function AllNotesByCategory({ category, goBackClick }) {
 	};
 
 	const handleAddNewTemplate = () => {
-		console.log("Add new template");
 		openCloseShowTemplate();
 	};
 
@@ -33,9 +36,10 @@ export function AllNotesByCategory({ category, goBackClick }) {
 		localStorage.setItem("categories", JSON.stringify(savedTemplates)); // Save the updated templates
 	};
 
-	const handleSaveChanges = (updatedContent) => {
+	const handleSaveChanges = (updatedContent, title) => {
 		const updatedTemplates = [...templates];
 		updatedTemplates[clickedNote].content = updatedContent;
+		updatedTemplates[clickedNote].title = title;
 		// Update in LocalStorage the updated content
 		updateTemplateInLocalStorage(category, updatedTemplates);
 		// Update in the state
@@ -68,7 +72,7 @@ export function AllNotesByCategory({ category, goBackClick }) {
 		const savedTemplates =
 			JSON.parse(localStorage.getItem("categories")) || {};
 		setTemplates(savedTemplates[category] || []);
-	}, []);
+	}, [showAddTemplate]);
 
 	return (
 		<>
@@ -82,7 +86,7 @@ export function AllNotesByCategory({ category, goBackClick }) {
 								{!showAddTemplate && (
 									<Button
 										onClick={() => handleAddNewTemplate()}>
-										Add new template
+										<FontAwesomeIcon icon={faPlus} />
 									</Button>
 								)}
 
@@ -104,6 +108,16 @@ export function AllNotesByCategory({ category, goBackClick }) {
 				<div className="table__table">
 					<Table>
 						<Table.Body>
+							{templates.length == 0 && !showAddTemplate && (
+								<p
+									style={{
+										marginLeft: "10px",
+										opacity: "0.5",
+									}}>
+									No templates available, click on '+' to
+									create one.
+								</p>
+							)}
 							{!showAddTemplate &&
 								templates.map((template, index) => (
 									<Table.Row
@@ -137,36 +151,44 @@ export function AllNotesByCategory({ category, goBackClick }) {
 				{/* Cuando se clica en Add new se despliega */}
 
 				{/* Preview */}
-				{!showAddTemplate && clickedNote && (
-					<div className="table__preview">
-						<PreviewNote
-							content={content}
-							title={title}
-							onSaveChanges={handleSaveChanges}
-							onDeleteTemplate={handleDeleteTemplate}
-						/>
-					</div>
-				)}
+				{!showAddTemplate &&
+					clickedNote !== null &&
+					clickedNote !== undefined && (
+						<div className="table__preview">
+							<PreviewNote
+								content={content}
+								title={title}
+								onSaveChanges={handleSaveChanges}
+								onDeleteTemplate={handleDeleteTemplate}
+							/>
+						</div>
+					)}
 
 				{/* Mostrar logo si no hay nota clicada */}
-				{!showAddTemplate && !clickedNote && (
-					<div className="table__preview">
-						<FontAwesomeIcon
-							icon={faOtter}
-							size="5x"
-							color="white"
-							style={{
-								opacity: 0.1,
-								border: "3px solid white",
-								borderRadius: "20px",
-								padding: "20px",
-							}}
-						/>
-					</div>
-				)}
+				{!showAddTemplate &&
+					(clickedNote === null || clickedNote === undefined) && (
+						<div className="table__preview">
+							<FontAwesomeIcon
+								icon={faOtter}
+								size="5x"
+								color="white"
+								style={{
+									opacity: 0.1,
+									border: "3px solid white",
+									borderRadius: "20px",
+									padding: "20px",
+								}}
+							/>
+						</div>
+					)}
 			</div>
 			{/* Form para crear una nueva nota/template */}
-			{showAddTemplate && <FormAddNewTemplate category={category} />}
+			{showAddTemplate && (
+				<FormAddNewTemplate
+					onClose={openCloseShowTemplate}
+					category={category}
+				/>
+			)}
 		</>
 	);
 }

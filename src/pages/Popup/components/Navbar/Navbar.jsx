@@ -1,16 +1,19 @@
 import "./Navbar.css";
-import React from "react";
-import { Checkbox, Segment, Radio } from "semantic-ui-react";
+import React, { useState } from "react";
+import { Checkbox } from "semantic-ui-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faUser,
-	faGear,
-	faNoteSticky,
-	faClipboard,
-	faOtter,
-} from "@fortawesome/free-solid-svg-icons";
+import { faOtter, faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
 export function Navbar() {
+	// Estado para controlar el modo de la aplicación
+	const [isDarkMode, setIsDarkMode] = useState(false);
+
+	// Función para alternar entre el modo oscuro y claro
+	const toggleDarkMode = () => {
+		setIsDarkMode(!isDarkMode);
+		// Aquí puedes agregar lógica adicional para cambiar los estilos de tu aplicación
+	};
+
 	return (
 		<>
 			<nav className="nav__content">
@@ -19,9 +22,7 @@ export function Navbar() {
 					<h2>Best Template</h2>
 				</div>
 
-				<div className="content__settings">
-					<FontAwesomeIcon icon={faGear} size="lg" color="white" />
-				</div>
+				<div className="content__settings"></div>
 			</nav>
 		</>
 	);

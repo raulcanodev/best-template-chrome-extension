@@ -28,7 +28,7 @@ const Popup = () => {
 
 	return (
 		<>
-			<div className="main__content">
+			<div className="main__content" data-theme="dark">
 				<Navbar />
 				{!selectedCategory && (
 					<Categories onCategoryClick={handleCategoryClick} />
