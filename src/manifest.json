@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
-	"name": "Chrome Extension with React & Webpack",
-	"description": "A chrome extension boilerplate built with React 17, Webpack 5, and Webpack Dev Server 4",
+	"name": "Best Template",
+	"description": "Effortlessly organize and manage your templates with our intuitive extension. Categorize your templates for easy access, and copy them with just a click whenever you need. Say goodbye to wasted time typing.",
 	"options_page": "options.html",
 	"background": { "service_worker": "background.bundle.js" },
 	"action": {
