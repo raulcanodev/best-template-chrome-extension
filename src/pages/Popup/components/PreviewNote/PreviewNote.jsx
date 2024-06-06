@@ -63,7 +63,6 @@ export function PreviewNote({
 						display: "flex",
 						justifyContent: "space-between",
 						marginBottom: "10px",
-						// marginTop: "50px",
 					}}>
 					{verifyDelete ? (
 						<Button
@@ -78,7 +77,7 @@ export function PreviewNote({
 						<div style={{ marginTop: "10px" }}>
 							<Button onClick={handleSave}>Save changes</Button>
 							<Button onClick={onVerifyDelete}>
-								<FontAwesomeIcon icon={faTrashCan} />
+								<FontAwesomeIcon icon={faTrashCan}/>
 							</Button>
 						</div>
 					)}

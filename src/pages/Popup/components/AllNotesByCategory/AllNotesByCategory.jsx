@@ -55,7 +55,9 @@ export function AllNotesByCategory({ category, goBackClick }) {
 		// Update in the state
 		setTemplates(updatedTemplates);
 		setContent("");
+		setTitle("");
 		setClickedNote("");
+		setClickedNote(null);
 	};
 
 	const handleCopyOnclick = (data) => {

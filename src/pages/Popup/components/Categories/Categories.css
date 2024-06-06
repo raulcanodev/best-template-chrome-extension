@@ -45,6 +45,11 @@
 	margin-top: 0px !important;
 }
 
+.table__category{
+	cursor: pointer;
+	flex: 1;
+}
+
 .button__add-category {
 	/* display: flex; */
 	/* width: 100%; */

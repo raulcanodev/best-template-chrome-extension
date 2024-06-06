@@ -75,6 +75,7 @@ export function Categories({ onCategoryClick }) {
 						Object.keys(categories).map((category, index) => (
 							<Table.Row key={index} className="map__categories">
 								<Table.Cell
+									className="table__category"
 									onClick={() => onCategoryClick(category)}>
 									{category}
 								</Table.Cell>
@@ -83,6 +84,7 @@ export function Categories({ onCategoryClick }) {
 								<Table.Cell>
 									{onDeleteCategory && (
 										<FontAwesomeIcon
+											style={{ cursor: "pointer" }}
 											onClick={() => {
 												const {
 													[category]: deletedCategory,
